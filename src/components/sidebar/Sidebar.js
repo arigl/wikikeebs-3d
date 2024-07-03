@@ -16,8 +16,7 @@ export default function Sidebar() {
       <div className={styles.intro}>
         <div className={styles.logoWrapper}>
           <h1 aria-label="Keyboard Simulator">
-            <Logo />
-            <Name />
+            <img width={"200px"} src="wide_logo.png" />
           </h1>
         </div>
       </div>
