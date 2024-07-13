@@ -50,7 +50,7 @@ export const MyPicker = ({ hex, hsl, hsv, onChange, onClose }) => {
       if (node.current) node.current.querySelector("input").focus();
     }, 50);
     return onClose;
-  }, []);
+  }, [onClose]); // Include onClose in the dependency array
 
   const swatches = Object.keys(colorCodes).map((code) => {
     return (
