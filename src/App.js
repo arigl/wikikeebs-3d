@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useSelector } from "react-redux";
 import ColorUtil from "./util/color";
 import Home from "./pages/Home";
@@ -53,10 +53,9 @@ export default function App() {
   return (
     <div className="App" style={highContrast ? uiColorsHC : uiColors}>
       <Router>
-        <Home />
-        <Switch>
-          <Route path="/"></Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </Router>
     </div>
   );
