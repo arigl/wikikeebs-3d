@@ -4,8 +4,6 @@ import TestingPane from "./TestingPane";
 import OptionsPane from "./OptionsPane";
 import styles from "./Sidebar.module.scss";
 import ColorwayEditor from "../colorway/ColorwayEditor";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as Name } from "../../assets/logo_text.svg";
 import "./tabs.scss";
 
 export default function Sidebar() {
@@ -16,7 +14,7 @@ export default function Sidebar() {
       <div className={styles.intro}>
         <div className={styles.logoWrapper}>
           <h1 aria-label="Keyboard Simulator">
-            <img width={"200px"} src="wide_logo.png" />
+            <img width={"200px"} src="wide_logo.png" alt="wikikeebs" />
           </h1>
         </div>
       </div>
