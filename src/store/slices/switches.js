@@ -17,11 +17,8 @@ export const switchesSlice = createSlice({
   },
 });
 
-export const {
-  setBodyColor,
-  setStemColor,
-  setSoundProfile,
-} = switchesSlice.actions;
+export const { setBodyColor, setStemColor, setSoundProfile } =
+  switchesSlice.actions;
 
 export const selectBodyColor = (state) => state.switches.bodyColor;
 export const selectStemColor = (state) => state.switches.stemColor;

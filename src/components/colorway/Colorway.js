@@ -27,8 +27,8 @@ export default function Colorway(props) {
   };
 
   const removeColorway = (e) => {
-    dispatch(removeCustomColorway(props.colorway.id));
     e.stopPropagation();
+    dispatch(removeCustomColorway(props.colorway.id));
   };
 
   return (

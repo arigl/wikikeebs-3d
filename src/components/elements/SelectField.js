@@ -39,8 +39,9 @@ export default function Select(props) {
     }
   };
 
-  const selectedLabel = props.options.find((x) => props.selected === x.value)
-    ?.label;
+  const selectedLabel = props.options.find(
+    (x) => props.selected === x.value
+  )?.label;
   const selectedLabelSecondary = props.options.find(
     (x) => props.selected === x.value
   )?.secondaryLabel;

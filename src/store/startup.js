@@ -32,12 +32,13 @@ let randomItem = (arr) => {
 const getInitialState = () => {
   let qs = get_qs_values();
   let saved_colorways = loadState();
-  let initial = settings;
+  let initial = JSON.parse(JSON.stringify(settings)); // Deep copy settings
+
   if (saved_colorways) {
     initial.colorways.custom = saved_colorways.settings;
   }
 
-  //set random initial values
+  // Set random initial values
   if (!qs) {
     initial.colorways.active = randomItem(starting_colorway_options);
     initial.case.layout = randomItem(starting_layout_options);
@@ -54,7 +55,8 @@ const getInitialState = () => {
   if (qs && qs["debug"]) {
     initial.settings.debug = true;
   }
-  //set initial values if in query string
+
+  // Set initial values if in query string
   if (qs && qs["size"]) {
     initial.case.layout = qs["size"];
   }
