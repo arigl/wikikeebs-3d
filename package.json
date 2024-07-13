@@ -75,7 +75,7 @@
     "imagemin-optipng": "^8.0.0",
     "oslllo-svg-fixer": "^0.6.0",
     "prettier": "^2.8.8",
-    "react-axe": "^4.0.2",
+    "react-axe": "^4.2.0",
     "stackblur-canvas": "^2.4.0",
     "svgo": "^3.0.0",
     "workerize-loader": "^3.0.1"
