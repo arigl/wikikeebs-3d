@@ -69,6 +69,7 @@
   },
   "devDependencies": {
     "canvas": "^2.11.0",
+    "eslint": "^8.47.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "imagemin": "^7.0.1",
