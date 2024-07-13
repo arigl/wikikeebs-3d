@@ -6,11 +6,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
+
 *:focus,
 *:active {
   outline: none;
@@ -27,6 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: $color-main;
 }
+
 #screen {
   position: relative !important;
   transform: none !important;
@@ -51,6 +54,7 @@ body {
 body.intersecting-key.editing #canvas-wrapper {
   cursor: url("/paintbrush.png") 0 47, auto !important;
 }
+
 .grabable {
   cursor: grab;
   &:active {
