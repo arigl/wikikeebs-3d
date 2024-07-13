@@ -1,21 +1,26 @@
-import React from "react";
-import Toggle from "react-toggle";
-import "./ToggleField.scss";
+import React, { useState } from "react";
+import Switch from "react-switch";
 
-export default function ToggleField(props) {
+const ToggleComponent = () => {
+  const [checked, setChecked] = useState(false);
+
+  const handleChange = (nextChecked) => {
+    setChecked(nextChecked);
+  };
+
   return (
-    <div className="fieldCheck">
-      <label>
-        <Toggle
-          defaultChecked={props.value}
-          icons={false}
-          onChange={props.handler}
-        />
-        <div className="fieldInfo">
-          <span>{props.label}</span>
-          <div className="fieldHelp">{props.help}</div>
-        </div>
-      </label>
-    </div>
+    <label>
+      <span>Toggle Switch</span>
+      <Switch
+        onChange={handleChange}
+        checked={checked}
+        offColor="#888"
+        onColor="#0f0"
+        uncheckedIcon={false}
+        checkedIcon={false}
+      />
+    </label>
   );
-}
+};
+
+export default ToggleComponent;
