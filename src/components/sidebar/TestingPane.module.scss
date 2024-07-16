@@ -3,8 +3,25 @@
 
 .pane {
   margin: 0;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paneDiv {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 4px; /* Add this line */
+  }
+
+  p {
+    font-size: 0.7rem;
+    margin-top: 4px; /* Ensure there's a 4px gap */
+  }
 }
 
 .editor {

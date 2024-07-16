@@ -18,21 +18,14 @@ export default function About() {
           </a>
         </p>
         <p>
-          Keyboard Simulator is built using{" "}
-          <a
-            href="https://threejs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            three js
-          </a>
+          I have a deep appreciation for the original developers who began this
+          project. Although the project has not been updated in over 3 years,
+          this site is dedicated to improving the foundation and adding new core
+          features. If anyone is interested in contributing please email
+          admin@wikikeebs.com
         </p>
         <p>
-          Note: precise color values are not always available for community
-          colorways and therefore colorways may use approximate values.
-        </p>
-        <p>
-          additional credit:{" "}
+          Credit for materials used:{" "}
           <a
             href="https://freepbr.com/materials/brushed-metal1/"
             rel="noopener noreferrer"
@@ -50,7 +43,7 @@ export default function About() {
           </a>
         </p>
         <div className={styles.legal}>
-          site design &copy;2020 keyboard simulator
+          &copy; WikiKeebs in collab with &copy; keyboard simulator (2020)
         </div>
       </div>
     </CollapsibleSection>

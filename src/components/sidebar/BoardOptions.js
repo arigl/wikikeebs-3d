@@ -106,26 +106,28 @@ export default function BoardOptions() {
           }}
         />
 
-        <SelectField
-          label="Sub Legends"
-          selected={legendSecondaryStyle}
-          options={[
-            { label: "None", value: "" },
-            { label: "Arabic", value: "arabic" },
-            { label: "Chinese", value: "chinese" },
-            { label: "Cyrillic", value: "cyrillic" },
-            { label: "Czech", value: "czech" },
-            { label: "Devanagari", value: "devanagari" },
-            { label: "Greek", value: "greek" },
-            { label: "Hangul", value: "hangul" },
-            { label: "Hebrew", value: "hebrew" },
-            { label: "Hiragana", value: "hiragana" },
-            { label: "Katakana", value: "katakana" },
-          ]}
-          handler={(val) => {
-            dispatch(keyActions.setLegendSecondaryStyle(val));
-          }}
-        />
+        {legendPrimaryStyle !== "sa" && (
+          <SelectField
+            label="Sub Legends"
+            selected={legendSecondaryStyle}
+            options={[
+              { label: "None", value: "" },
+              { label: "Arabic", value: "arabic" },
+              { label: "Chinese", value: "chinese" },
+              { label: "Cyrillic", value: "cyrillic" },
+              { label: "Czech", value: "czech" },
+              { label: "Devanagari", value: "devanagari" },
+              { label: "Greek", value: "greek" },
+              { label: "Hangul", value: "hangul" },
+              { label: "Hebrew", value: "hebrew" },
+              { label: "Hiragana", value: "hiragana" },
+              { label: "Katakana", value: "katakana" },
+            ]}
+            handler={(val) => {
+              dispatch(keyActions.setLegendSecondaryStyle(val));
+            }}
+          />
+        )}
       </CollapsibleSection>
       <CollapsibleSection title="Case Options">
         <div className={styles.row}>

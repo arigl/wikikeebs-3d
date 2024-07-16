@@ -14,6 +14,10 @@ export default function TestingPane() {
     <>
       <CollapsibleSection title="Key Tester" open={true}>
         <div className={styles.pane}>
+          <div className={styles.paneDiv}>
+            <label>Highlighting</label>
+            <p>PS: Not all keys can be detected by a browser</p>
+          </div>
           <ToggleField
             value={testing}
             label={"Highlighting"}
