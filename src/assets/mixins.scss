@@ -22,6 +22,14 @@
   }
 }
 
+@function contrast-color($color, $dark, $light) {
+  @if (lightness($color) > 50%) {
+    @return $dark;
+  } @else {
+    @return $light;
+  }
+}
+
 @mixin field() {
 }
 

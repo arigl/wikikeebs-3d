@@ -38,7 +38,7 @@ export default function BoardOptions() {
 
   return (
     <>
-      <CollapsibleSection title="General" open={true}>
+      <CollapsibleSection title="Keyboard Options" open={true}>
         <SelectField
           label="Layout"
           selected={layout}
@@ -64,12 +64,42 @@ export default function BoardOptions() {
           }}
         />
 
-        <SelectField
+        <RadioField
+          name="case_style"
+          label="Case Style"
+          selected={style}
+          options={[
+            { label: "Rounded", value: "CASE_1" },
+            { label: "Angular", value: "CASE_2" },
+          ]}
+          handler={(val) => {
+            dispatch(caseActions.setStyle(val));
+          }}
+        />
+
+        <RadioField
+          name="case_finish"
+          label="Case Finish"
+          selected={material}
+          options={[
+            { label: "Matte", value: "matte" },
+            { label: "Brushed", value: "brushed" },
+            { label: "Glossy", value: "glossy" },
+          ]}
+          handler={(val) => {
+            dispatch(caseActions.setMaterial(val));
+          }}
+        />
+      </CollapsibleSection>
+
+      <CollapsibleSection title="Keycap Options">
+        <RadioField
+          name="legend_style"
           label="Legend Style"
           selected={legendPrimaryStyle}
           options={[
             { label: "Cherry", value: "cherry" },
-            { label: "SA", value: "sa", secondaryLabel: "(no subs)" },
+            { label: "SA", value: "sa" },
           ]}
           handler={(val) => {
             dispatch(keyActions.setLegendPrimaryStyle(val));
@@ -97,35 +127,7 @@ export default function BoardOptions() {
           }}
         />
       </CollapsibleSection>
-
       <CollapsibleSection title="Case Options">
-        <RadioField
-          name="case_style"
-          label="Case Style"
-          selected={style}
-          options={[
-            { label: "Rounded", value: "CASE_1" },
-            { label: "Angular", value: "CASE_2" },
-          ]}
-          handler={(val) => {
-            dispatch(caseActions.setStyle(val));
-          }}
-        />
-
-        <RadioField
-          name="case_finish"
-          label="Case Finish"
-          selected={material}
-          options={[
-            { label: "Matte", value: "matte" },
-            { label: "Brushed", value: "brushed" },
-            { label: "Glossy", value: "glossy" },
-          ]}
-          handler={(val) => {
-            dispatch(caseActions.setMaterial(val));
-          }}
-        />
-
         <div className={styles.row}>
           <div className={styles.fieldColor}>
             <label>Case Color</label>
@@ -139,7 +141,7 @@ export default function BoardOptions() {
           </div>
 
           <div className={styles.fieldColor}>
-            <label>Scene Color</label>
+            <label>Background Color</label>
             <ColorPicker
               color={sceneColor}
               handler={(color) => {

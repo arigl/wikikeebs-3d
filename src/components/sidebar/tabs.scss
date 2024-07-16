@@ -34,12 +34,14 @@
     justify-content: center;
     cursor: pointer;
     border: 3px solid transparent;
+    margin: 0.3rem;
 
     &:focus {
       text-decoration: underline;
     }
     &--selected {
-      color: var(--accent);
+      background: var(--accent);
+      color: black;
       border-bottom-color: var(--accent);
       border-radius: $primary-border-radius;
     }

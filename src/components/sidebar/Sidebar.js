@@ -13,7 +13,7 @@ export default function Sidebar() {
     <div id="sidebar" className={styles.sidebar}>
       <div className={styles.intro}>
         <div className={styles.logoWrapper}>
-          <h1 aria-label="Keyboard Simulator">
+          <h1 aria-label="Wiki Keebs">
             <img width={"200px"} src="wide_logo.png" alt="wikikeebs" />
           </h1>
         </div>
@@ -21,7 +21,7 @@ export default function Sidebar() {
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
           <Tab tabIndex="0">Options</Tab>
-          <Tab tabIndex="0">Editor</Tab>
+          <Tab tabIndex="0">Studio</Tab>
           <Tab tabIndex="0">Test</Tab>
         </TabList>
         <TabPanel>

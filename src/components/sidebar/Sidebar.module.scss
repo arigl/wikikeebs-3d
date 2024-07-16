@@ -31,6 +31,12 @@
 }
 
 .logoWrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Adjust as needed */
+  width: 100%; /* Ensures full width of parent */
+
   svg {
     transform: rotate(0deg);
     max-height: 80px;
@@ -58,11 +64,8 @@
   }
   h1 {
     display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    // font-size: 1.8rem;
-    // margin-bottom: 0.25em;
-    // font-family: "arial rounded mt bold";
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
 }
 
