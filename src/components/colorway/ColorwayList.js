@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Colorway from "./Colorway";
-import Button from "../elements/Button";
+// import Button from "../elements/Button";
 import styles from "./ColorwayList.module.scss";
 import { useSelector, useDispatch } from "react-redux";
 import COLORWAYS from "../../config/colorways/colorways";
@@ -13,7 +13,7 @@ import {
   addCustomColorway,
 } from "../../store/slices/colorways";
 
-import { ReactComponent as PlusIcon } from "../../assets/icons/icon_plus.svg";
+// import { ReactComponent as PlusIcon } from "../../assets/icons/icon_plus.svg";
 
 export default function ColorwayList(props) {
   const dispatch = useDispatch();
@@ -53,7 +53,7 @@ export default function ColorwayList(props) {
               setFilter(val);
             }}
           />
-          <Button
+          {/* <Button
             title="Add"
             icon={<PlusIcon />}
             className={styles.add}
@@ -62,7 +62,7 @@ export default function ColorwayList(props) {
           >
             <PlusIcon />
             <span>Add New Colorway</span>
-          </Button>
+          </Button> */}
         </div>
         {customColorwayTiles.length ? (
           <div aria-hidden="true" className={styles.listLabel}>

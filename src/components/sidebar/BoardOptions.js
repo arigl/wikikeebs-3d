@@ -38,7 +38,7 @@ export default function BoardOptions() {
 
   return (
     <>
-      <CollapsibleSection title="Keyboard Options" open={true}>
+      <CollapsibleSection title="Keyboard Settings" open={true}>
         <SelectField
           label="Layout"
           selected={layout}
@@ -91,8 +91,33 @@ export default function BoardOptions() {
           }}
         />
       </CollapsibleSection>
+      <CollapsibleSection title="Case Settings" open={true}>
+        <div className={styles.row}>
+          <div className={styles.fieldColor}>
+            <label>Case Color</label>
+            <ColorPicker
+              color={primaryColor}
+              handler={(color) => {
+                dispatch(caseActions.setPrimaryColor(color.hex));
+                dispatch(caseActions.setAutoColor(false));
+              }}
+            />
+          </div>
 
-      <CollapsibleSection title="Keycap Options">
+          <div className={styles.fieldColor}>
+            <label>Background Color</label>
+            <ColorPicker
+              color={sceneColor}
+              handler={(color) => {
+                dispatch(settingsActions.setSceneColor(color.hex));
+                dispatch(settingsActions.setSceneAutoColor(false));
+              }}
+            />
+          </div>
+        </div>
+      </CollapsibleSection>
+
+      <CollapsibleSection title="Keycap Settings" open={true}>
         <RadioField
           name="legend_style"
           label="Legend Style"
@@ -128,31 +153,6 @@ export default function BoardOptions() {
             }}
           />
         )}
-      </CollapsibleSection>
-      <CollapsibleSection title="Case Options">
-        <div className={styles.row}>
-          <div className={styles.fieldColor}>
-            <label>Case Color</label>
-            <ColorPicker
-              color={primaryColor}
-              handler={(color) => {
-                dispatch(caseActions.setPrimaryColor(color.hex));
-                dispatch(caseActions.setAutoColor(false));
-              }}
-            />
-          </div>
-
-          <div className={styles.fieldColor}>
-            <label>Background Color</label>
-            <ColorPicker
-              color={sceneColor}
-              handler={(color) => {
-                dispatch(settingsActions.setSceneColor(color.hex));
-                dispatch(settingsActions.setSceneAutoColor(false));
-              }}
-            />
-          </div>
-        </div>
       </CollapsibleSection>
     </>
   );

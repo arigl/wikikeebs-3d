@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  height: 100px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
   width: 100%; /* Ensures full width of parent */
 
   svg {
@@ -66,6 +66,7 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    margin-bottom: 1rem;
   }
 }
 

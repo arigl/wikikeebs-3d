@@ -3,13 +3,15 @@
 
 .section {
   padding: $section-padding $sidebar-padding;
+  font-family: "Inter", sans-serif; /* Apply Inter font to section */
 
   header {
-    @include smallcaps();
     display: flex;
     cursor: pointer;
     align-items: center;
-    color: var(--accent);
+    // color: var(--accent);
+    color: white;
+    font-size: 0.95rem;
     justify-content: space-between;
     &:focus {
       text-decoration: underline;
