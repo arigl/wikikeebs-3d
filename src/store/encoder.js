@@ -73,9 +73,33 @@ export const decodeColorway = (value) => {
   return cw;
 };
 
+// export const encodeColorway = (value) => {
+//   let swatchlist = Object.keys(value.swatches);
+//   if (swatchlist.legnth < 1) return "";
+//   let swatches = swatchlist
+//     .map((s) => {
+//       let x = value.swatches[s];
+//       let colors = Object.keys(x);
+//       return colors.map((c) => x[c]).join(".");
+//     })
+//     .join("-");
+//   let override = Object.keys(value.override)
+//     .map((o) => {
+//       let x = value.override[o];
+//       return `${o.replace("KC_", "")}.${swatchlist.indexOf(x)}`;
+//     })
+//     .join("-");
+//   let id = value.id.replace("_", "-");
+//   let label = encodeURIComponent(value.label);
+//   let encoded = `cw_${swatches}_${override}_${id}_${label}`.replace(/#/gi, "");
+//   return swatches ? encoded : "";
+// };
+
 export const encodeColorway = (value) => {
+  if (!value || !value.swatches || Object.keys(value.swatches).length < 1)
+    return "";
+
   let swatchlist = Object.keys(value.swatches);
-  if (swatchlist.legnth < 1) return "";
   let swatches = swatchlist
     .map((s) => {
       let x = value.swatches[s];
@@ -83,15 +107,20 @@ export const encodeColorway = (value) => {
       return colors.map((c) => x[c]).join(".");
     })
     .join("-");
-  let override = Object.keys(value.override)
-    .map((o) => {
-      let x = value.override[o];
-      return `${o.replace("KC_", "")}.${swatchlist.indexOf(x)}`;
-    })
-    .join("-");
-  let id = value.id.replace("_", "-");
-  let label = encodeURIComponent(value.label);
+
+  let override = value.override
+    ? Object.keys(value.override)
+        .map((o) => {
+          let x = value.override[o];
+          return `${o.replace("KC_", "")}.${swatchlist.indexOf(x)}`;
+        })
+        .join("-")
+    : "";
+
+  let id = value.id ? value.id.replace("_", "-") : "undefined";
+  let label = value.label ? encodeURIComponent(value.label) : "undefined";
   let encoded = `cw_${swatches}_${override}_${id}_${label}`.replace(/#/gi, "");
+
   return swatches ? encoded : "";
 };
 
