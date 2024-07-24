@@ -118,14 +118,14 @@ export default function ColorwayEditor() {
 
   return (
     <>
-      <CollapsibleSection title="Design your own keycaps" open={true}>
+      <CollapsibleSection title="Colorway Editor" open={true}>
         <div className={styles.editor}>
-          {/* <ToggleField
+          <ToggleField
             value={paintWithKeys}
             label={"Apply swatches on keypress"}
             help={"Apply the selected swatch to a each key pressed."}
             handler={() => dispatch(togglePaintWithKeys())}
-          /> */}
+          />
 
           <div className={styles.name}>
             <label htmlFor="colorway_name" className={styles.label}>
@@ -147,7 +147,7 @@ export default function ColorwayEditor() {
             </p>
 
             <ul>{editableSwatchElements}</ul>
-            <Button isText={false} title="Add to Library" handler={addSwatch} />
+            <Button isText={false} title="Add Swatch" handler={addSwatch} />
           </fieldset>
         </div>
       </CollapsibleSection>

@@ -36,15 +36,15 @@ export default function Sidebar() {
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
           <Tab tabIndex="0">Options</Tab>
-          {/* <Tab tabIndex="0">Studio</Tab> */}
+          <Tab tabIndex="0">Studio</Tab>
           <Tab tabIndex="0">Test</Tab>
         </TabList>
         <TabPanel>
           <OptionsPane setTab={setTabIndex} />
         </TabPanel>
-        {/* <TabPanel>
+        <TabPanel>
           <ColorwayEditor />
-        </TabPanel> */}
+        </TabPanel>
         <TabPanel>
           <TestingPane />
         </TabPanel>

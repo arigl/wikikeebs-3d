@@ -1,17 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import initial_settings from "../../config/settings_user_default.json";
-// import { initial_settings } from "../startup";
 
-// const getInitialState = () => {
-//   // Deep copy the initial settings to avoid mutating the original object
-//   return {
-//     ...initial_settings.colorways,
-//     custom: initial_settings.colorways.custom.map((colorway) => ({
-//       ...colorway,
-//     })),
-//     layout: { ...initial_settings.colorways.layout },
-//   };
-// };
 export const colorwaysSlice = createSlice({
   name: "colorways",
   initialState: initial_settings.colorways,
@@ -32,11 +21,12 @@ export const colorwaysSlice = createSlice({
       state.activeSwatch = action.payload;
     },
     updateCustomColorway: (state, action) => {
-      state.custom = state.custom.map((item) =>
-        item.id === action.payload.id
-          ? { ...item, ...action.payload.updates }
-          : item
-      );
+      state.custom = state.custom.map((item) => {
+        if (item.id === action.payload.id) {
+          return action.payload;
+        }
+        return item;
+      });
     },
   },
 });
@@ -46,6 +36,9 @@ export const {
   addCustomColorway,
   removeCustomColorway,
   updateCustomColorway,
+  addSwatch,
+  removeSwatch,
+  updateSwatchBackground,
   toggleEditing,
   setActiveSwatch,
 } = colorwaysSlice.actions;
