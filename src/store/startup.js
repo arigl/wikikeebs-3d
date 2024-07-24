@@ -54,10 +54,11 @@ export const getInitialState = () => {
     console.log("No query string detected, setting random initial values");
     initial.colorways.active = randomItem(starting_colorway_options);
     initial.case.layout = randomItem(starting_layout_options);
-    initial.keys.legendSecondaryStyle = randomItem([
-      randomItem(subOptions),
-      "",
-    ]);
+    // initial.keys.legendSecondaryStyle = randomItem([
+    //   randomItem(subOptions),
+    //   "",
+    // ]);
+    initial.keys.legendSecondaryStyle = "";
   }
 
   if (saved_colorways && saved_colorways.active) {
