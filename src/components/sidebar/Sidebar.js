@@ -9,12 +9,27 @@ import "./tabs.scss";
 export default function Sidebar() {
   const [tabIndex, setTabIndex] = useState(0);
 
+  const handleLogoClick = () => {
+    window.location.href = "https://wikikeebs.com";
+  };
+
   return (
     <div id="sidebar" className={styles.sidebar}>
       <div className={styles.intro}>
         <div className={styles.logoWrapper}>
           <h1 aria-label="Wiki Keebs">
-            <img width={"200px"} src="wide_logo.png" alt="wikikeebs" />
+            <a
+              href="https://www.wikikeebs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                width="200px"
+                src="wide_logo.png"
+                alt="wikikeebs"
+                style={{ cursor: "pointer" }}
+              />
+            </a>
           </h1>
         </div>
       </div>

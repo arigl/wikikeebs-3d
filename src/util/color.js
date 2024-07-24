@@ -1,20 +1,21 @@
 import COLORWAYS from "../config/colorways/colorways";
-import initial_settings from "../config/settings_user_default.json";
+// import initial_settings from "../config/settings_user_default.json";
 import { updateCustomColorway } from "../store/slices/colorways";
 import * as colorConvert from "color-convert";
 import colorwayTemplate from "../config/colorways/colorway_template.json";
 import { subscribe } from "redux-subscriber";
 import store from "../store/store";
 import Util from "./math";
+import { initial_settings } from "../store/startup";
 
-const getInitialState = () => {
-  return {
-    ...initial_settings.colorways,
-    custom: initial_settings.colorways.custom.map((colorway) => ({
-      ...colorway,
-    })),
-  };
-};
+// const getInitialState = () => {
+//   return {
+//     ...initial_settings.colorways,
+//     custom: initial_settings.colorways.custom.map((colorway) => ({
+//       ...colorway,
+//     })),
+//   };
+// };
 
 const accentOptions = [
   {

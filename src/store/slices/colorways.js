@@ -1,19 +1,20 @@
 import { createSlice } from "@reduxjs/toolkit";
 import initial_settings from "../../config/settings_user_default.json";
+// import { initial_settings } from "../startup";
 
-const getInitialState = () => {
-  // Deep copy the initial settings to avoid mutating the original object
-  return {
-    ...initial_settings.colorways,
-    custom: initial_settings.colorways.custom.map((colorway) => ({
-      ...colorway,
-    })),
-    layout: { ...initial_settings.colorways.layout },
-  };
-};
+// const getInitialState = () => {
+//   // Deep copy the initial settings to avoid mutating the original object
+//   return {
+//     ...initial_settings.colorways,
+//     custom: initial_settings.colorways.custom.map((colorway) => ({
+//       ...colorway,
+//     })),
+//     layout: { ...initial_settings.colorways.layout },
+//   };
+// };
 export const colorwaysSlice = createSlice({
   name: "colorways",
-  initialState: getInitialState(),
+  initialState: initial_settings.colorways,
   reducers: {
     setColorway: (state, action) => {
       state.active = action.payload;
