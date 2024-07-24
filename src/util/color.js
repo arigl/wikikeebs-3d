@@ -8,15 +8,6 @@ import store from "../store/store";
 import Util from "./math";
 import { initial_settings } from "../store/startup";
 
-// const getInitialState = () => {
-//   return {
-//     ...initial_settings.colorways,
-//     custom: initial_settings.colorways.custom.map((colorway) => ({
-//       ...colorway,
-//     })),
-//   };
-// };
-
 const accentOptions = [
   {
     background: "#49c5b1",
@@ -47,7 +38,6 @@ subscribe("colorways.custom", (state) => {
   ColorUtil.cachedColorway = ColorUtil.getColorway(state.colorways.active);
 });
 
-// helpers for managing color values and colorway json
 export default class ColorUtil {
   static cachedColorway;
 
@@ -86,7 +76,6 @@ export default class ColorUtil {
     if (!accent) return defaultAccent;
     let hsv = colorConvert.hex.hsv(accent);
     let ratio = this.contrast(accent, "202024");
-    // too dark
     if (ratio < 7) {
       let ratioDelta = 7 - ratio;
       hsv[2] = Math.min(hsv[2] + 10 * ratioDelta, 100);
@@ -96,12 +85,37 @@ export default class ColorUtil {
     return accent;
   }
 
+  // static addCodeToOverride(key_code, swatch) {
+  //   swatch = swatch || store.getState().colorways.activeSwatch;
+  //   let cw = JSON.parse(JSON.stringify(this.getUserColorway()));
+  //   if (!cw || !swatch) return;
+  //   if (!cw.override) {
+  //     console.error("Colorway override is undefined in addCodeToOverride"); // Debugging statement
+  //     cw.override = {}; // Initialize override if undefined
+  //   }
+  //   cw.override[key_code] = swatch;
+  //   store.dispatch(updateCustomColorway({ id: cw.id, updates: cw }));
+  // }
+
   static addCodeToOverride(key_code, swatch) {
     swatch = swatch || store.getState().colorways.activeSwatch;
-    let cw = JSON.parse(JSON.stringify(this.getUserColorway()));
+    let cw = this.getUserColorway();
     if (!cw || !swatch) return;
-    cw.override[key_code] = swatch;
-    store.dispatch(updateCustomColorway({ id: cw.id, updates: cw }));
+
+    if (!cw.override) {
+      console.error("Colorway override is undefined in addCodeToOverride");
+      cw.override = {};
+    }
+
+    const updatedColorway = {
+      ...cw,
+      override: {
+        ...cw.override,
+        [key_code]: swatch,
+      },
+    };
+
+    store.dispatch(updateCustomColorway(updatedColorway));
   }
 
   static luminanace(r, g, b) {
@@ -164,25 +178,23 @@ export default class ColorUtil {
     return parseInt(color, 16);
   }
 
-  // true if closer to white, false if closer to black
   static isLight(color) {
     color = this.parseColor(color);
     let r = (color >> 16) & 0xff;
     let g = (color >> 8) & 0xff;
-    let b = (color >> 0) & 0xff;
+    let b = color & 0xff;
     let luma = 0.2126 * r + 0.7152 * g + 0.0722 * b;
     return luma > 128;
   }
 
-  // if color is dark make it brighter by amount, darken if color is light
   static offsetColor(color, amount) {
     if (this.isLight(color)) {
       amount = amount * -1;
     }
     color = this.parseColor(color);
     var r = (color >> 16) + amount;
-    var b = ((color >> 8) & 0x00ff) + amount;
-    var g = (color & 0x0000ff) + amount;
+    var b = ((color >> 8) & 0xff) + amount;
+    var g = (color & 0xff) + amount;
     var newColor = g | (b << 8) | (r << 16);
     return "#" + newColor.toString(16);
   }

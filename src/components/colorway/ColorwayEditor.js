@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./ColorwayEditor.module.scss";
 import Button from "../elements/Button";
@@ -27,94 +27,120 @@ export default function ColorwayEditor() {
   const colorwayId = useSelector(selectColorway);
   const colorwayList = useSelector(selectColorways);
   const paintWithKeys = useSelector(selectPaintWithKeys);
-  var colorway = colorwayList.find((x) => x.id === colorwayId);
-  if (!colorway) {
-    colorway = JSON.parse(JSON.stringify(ColorUtil.getColorway(colorwayId)));
-    colorway.label += " modified";
-    colorway.id = `cw_${Util.randString()}`;
+  const activeSwatch = useSelector(selectActiveSwatch);
 
-    dispatch(addCustomColorway(colorway));
-    dispatch(setColorway(colorway.id));
-  }
+  const [localColorway, setLocalColorway] = useState(null);
+  const previousSwatchesRef = useRef(null);
 
   useEffect(() => {
+    console.log("useEffect - Initial Setup");
+    let colorway = colorwayList.find((x) => x.id === colorwayId);
+    if (!colorway) {
+      colorway = JSON.parse(JSON.stringify(ColorUtil.getColorway(colorwayId)));
+      colorway.label += " modified";
+      colorway.id = `cw_${Util.randString()}`;
+      dispatch(addCustomColorway(colorway));
+      console.log("Dispatched addCustomColorway:", colorway);
+      dispatch(setColorway(colorway.id));
+      console.log("Dispatched setColorway:", colorway.id);
+    }
+    setLocalColorway(colorway);
+    console.log("Set localColorway:", colorway);
+  }, [colorwayId, colorwayList, dispatch]);
+
+  useEffect(() => {
+    console.log("useEffect - Toggle Editing");
     dispatch(toggleEditing());
+    console.log("Dispatched toggleEditing");
     return () => {
       dispatch(toggleEditing());
+      console.log("Dispatched toggleEditing (cleanup)");
     };
-  });
-
-  const activeSwatch = useSelector(selectActiveSwatch);
-  const swatches = colorway ? Object.keys(colorway.swatches) : [];
-
-  const updateName = (e) => {
-    let updatedColorway = JSON.parse(JSON.stringify(colorway));
-    updatedColorway.label = e.target.value;
-    dispatch(updateCustomColorway(updatedColorway));
-  };
-
-  const handleSwatchChange = (swatch, val) => {
-    let updatedColorway = JSON.parse(JSON.stringify(colorway));
-    updatedColorway.swatches[swatch] = val;
-    dispatch(updateCustomColorway(updatedColorway));
-    let event = new CustomEvent("force_key_material_update");
-    document.dispatchEvent(event);
-  };
-
-  const removeSwatch = (name) => {
-    let updatedColorway = JSON.parse(JSON.stringify(colorway));
-    if (!updatedColorway.swatches[name]) return;
-    Object.keys(updatedColorway.override).forEach((key) => {
-      if (updatedColorway.override[key] === name)
-        delete updatedColorway.override[key];
-    });
-    delete updatedColorway.swatches[name];
-    dispatch(updateCustomColorway(updatedColorway));
-    let event = new CustomEvent("force_key_material_update");
-    document.dispatchEvent(event);
-  };
-
-  const addSwatch = () => {
-    let updatedColorway = JSON.parse(JSON.stringify(colorway));
-    let new_swatch_id = "swatch-" + (Object.keys(colorway.swatches).length - 2);
-    updatedColorway.swatches[new_swatch_id] = ColorUtil.getRandomAccent();
-    dispatch(updateCustomColorway(updatedColorway));
-    dispatch(setActiveSwatch(new_swatch_id));
-  };
-
-  // const updateColorwayFromJson = (e) => {
-  //   try {
-  //     JSON.parse(e.target.value);
-  //     dispatch(updateCustomColorway(JSON.parse(e.target.value)));
-  //   } catch (e) {
-  //     console.log("invalid colorway JSON");
-  //     return;
-  //   }
-  // };
-
-  const editableSwatchElements = swatches.map((s) => {
-    let swatch = colorway.swatches[s];
-    return (
-      <Swatch
-        key={s}
-        name={s}
-        swatch={swatch}
-        active={activeSwatch}
-        handler={handleSwatchChange}
-        remove={removeSwatch}
-        setSwatch={(name) => {
-          dispatch(setActiveSwatch(name));
-        }}
-      />
-    );
-  });
+  }, [dispatch]);
 
   useEffect(() => {
+    console.log("useEffect - Editing Class");
     document.body.classList.add("editing");
     return () => {
       document.body.classList.remove("editing");
     };
-  });
+  }, []);
+
+  useEffect(() => {
+    console.log("colorway state updated:", localColorway);
+
+    if (localColorway) {
+      const currentSwatches = localColorway.swatches;
+      const previousSwatches = previousSwatchesRef.current;
+
+      if (
+        JSON.stringify(currentSwatches) !== JSON.stringify(previousSwatches)
+      ) {
+        console.log("Swatches changed:", currentSwatches);
+        previousSwatchesRef.current = currentSwatches;
+      }
+    }
+  }, [localColorway]);
+
+  const updateName = (e) => {
+    if (localColorway) {
+      let updatedColorway = { ...localColorway, label: e.target.value };
+      dispatch(updateCustomColorway(updatedColorway));
+      console.log("Dispatched updateCustomColorway:", updatedColorway);
+      setLocalColorway(updatedColorway);
+    }
+  };
+
+  const handleSwatchChange = (swatch, val) => {
+    if (localColorway && localColorway.swatches) {
+      let updatedColorway = {
+        ...localColorway,
+        swatches: { ...localColorway.swatches, [swatch]: val },
+      };
+      dispatch(updateCustomColorway(updatedColorway));
+      console.log("Dispatched updateCustomColorway:", updatedColorway);
+      setLocalColorway(updatedColorway);
+      let event = new CustomEvent("force_key_material_update");
+      document.dispatchEvent(event);
+    }
+  };
+
+  const removeSwatch = (name) => {
+    if (localColorway && localColorway.swatches[name]) {
+      let updatedColorway = { ...localColorway };
+      Object.keys(updatedColorway.override).forEach((key) => {
+        if (updatedColorway.override[key] === name)
+          delete updatedColorway.override[key];
+      });
+      delete updatedColorway.swatches[name];
+      dispatch(updateCustomColorway(updatedColorway));
+      console.log("Dispatched updateCustomColorway:", updatedColorway);
+      setLocalColorway(updatedColorway);
+      let event = new CustomEvent("force_key_material_update");
+      document.dispatchEvent(event);
+    }
+  };
+
+  const addSwatch = () => {
+    if (localColorway) {
+      let new_swatch_id =
+        "swatch-" + (Object.keys(localColorway.swatches).length - 2);
+      let updatedColorway = {
+        ...localColorway,
+        swatches: {
+          ...localColorway.swatches,
+          [new_swatch_id]: ColorUtil.getRandomAccent(),
+        },
+      };
+      dispatch(updateCustomColorway(updatedColorway));
+      console.log("Dispatched updateCustomColorway:", updatedColorway);
+      setLocalColorway(updatedColorway);
+      dispatch(setActiveSwatch(new_swatch_id));
+      console.log("Dispatched setActiveSwatch:", new_swatch_id);
+    }
+  };
+
+  const swatches = localColorway ? Object.keys(localColorway.swatches) : [];
 
   return (
     <>
@@ -123,7 +149,7 @@ export default function ColorwayEditor() {
           <ToggleField
             value={paintWithKeys}
             label={"Apply swatches on keypress"}
-            help={"Apply the selected swatch to a each key pressed."}
+            help={"Apply the selected swatch to each key pressed."}
             handler={() => dispatch(togglePaintWithKeys())}
           />
 
@@ -135,7 +161,7 @@ export default function ColorwayEditor() {
               type="text"
               id="colorway_name"
               name="colorway_name"
-              value={colorway.label}
+              value={localColorway ? localColorway.label : ""}
               onChange={updateName}
             />
           </div>
@@ -146,7 +172,19 @@ export default function ColorwayEditor() {
               A swatch consists of a background color and a legend color.
             </p>
 
-            <ul>{editableSwatchElements}</ul>
+            <ul>
+              {swatches.map((swatch) => (
+                <Swatch
+                  key={swatch}
+                  name={swatch}
+                  swatch={localColorway.swatches[swatch]}
+                  handler={handleSwatchChange}
+                  active={activeSwatch}
+                  setSwatch={(name) => dispatch(setActiveSwatch(name))}
+                  remove={(name) => removeSwatch(name)}
+                />
+              ))}
+            </ul>
             <Button isText={false} title="Add Swatch" handler={addSwatch} />
           </fieldset>
         </div>
@@ -160,7 +198,7 @@ export default function ColorwayEditor() {
             id="colorway_json"
             name="colorway_json"
             spellCheck="false"
-            value={JSON.stringify(colorway, null, 1)}
+            value={JSON.stringify(localColorway, null, 1)}
           />
         </div>
       </CollapsibleSection>

@@ -93,42 +93,60 @@ export class Key {
       this.updateColors();
     });
   }
+
   get h() {
     return this.options.dimensions.h || 1;
   }
+
   get w() {
     return this.options.dimensions.w || 1;
   }
+
   get x() {
     return this.options.dimensions.x || 0;
   }
+
   get y() {
     return this.options.dimensions.y || 0;
   }
+
   get row() {
     return this.options.dimensions.row || 1;
   }
+
   // cap color
   get backgroundColor() {
-    return this.swatch.background;
+    const swatch = this.swatch;
+    return swatch ? swatch.background : "";
   }
+
   // color of legend on cap
   get foregroundColor() {
-    return this.swatch.color;
+    const swatch = this.swatch;
+    return swatch ? swatch.color : "";
   }
+
   // get the color group for this key (base, mods, accent, etc)
   get swatch() {
-    let group =
-      KeyUtil.isMod(this.code) && "mods" in this.colorway.swatches
-        ? "mods"
-        : "base";
-    let override = this.colorway?.override
-      ? this.colorway.override[this.options.code]
-      : "";
-    return (
-      this.colorway.swatches[override || group] ||
-      this.colorway.swatches["base"]
-    );
+    console.log("Colorway:", this.colorway);
+    const colorway = this.colorway.updates
+      ? this.colorway.updates
+      : this.colorway;
+    console.log("Swatches:", colorway ? colorway.swatches : undefined);
+
+    if (colorway && colorway.swatches) {
+      let group =
+        KeyUtil.isMod(this.code) && "mods" in colorway.swatches
+          ? "mods"
+          : "base";
+      let override = colorway.override
+        ? colorway.override[this.options.code]
+        : "";
+      return colorway.swatches[override || group] || colorway.swatches["base"];
+    }
+
+    console.error("Colorway or swatches are undefined");
+    return null; // Or a default swatch object if you prefer
   }
 
   get materialOptions() {
@@ -143,14 +161,17 @@ export class Key {
       isIsoEnt: this.is_iso_enter,
     };
   }
+
   destroy() {
     this.options.container.remove(this.cap);
   }
+
   move(dimensions) {
     this.options.dimensions = dimensions;
     this.cap.position.x = this.x;
     this.cap.position.z = this.y;
   }
+
   // set the state of the key and prevent chaning in wrong order
   setState(state) {
     // if keyup event fires before key is finished animating down, add up animating to the queue
@@ -167,12 +188,14 @@ export class Key {
     }
     this.state = state;
   }
-  // reset key to stating position and update state
+
+  // reset key to starting position and update state
   reset() {
     this.cap.position.y = this.start_y;
     this.setState(KEYSTATES.INITIAL);
     this.direction = -1;
   }
+
   // set key to fully pressed position and update state
   bottomOut() {
     this.cap.position.y = this.start_y - this.dist_pressed;
@@ -183,12 +206,19 @@ export class Key {
       this.queueRelease = false;
     }
   }
+
   updateColors(textureOnly, includeActiveMaterial) {
     this.colorway = ColorUtil.colorway;
-    updateMaterials(this.cap, this.materialOptions, textureOnly);
-    if (!includeActiveMaterial) return;
-    updateActiveMaterials(this.cap, this.materialOptions, textureOnly);
+    if (this.colorway) {
+      updateMaterials(this.cap, this.materialOptions, textureOnly);
+      if (includeActiveMaterial) {
+        updateActiveMaterials(this.cap, this.materialOptions, textureOnly);
+      }
+    } else {
+      console.error("Colorway is undefined in Key.updateColors"); // Debugging statement
+    }
   }
+
   // update key
   update() {
     // check if key needs to be updated

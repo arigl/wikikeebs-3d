@@ -94,6 +94,7 @@ export default class KeyManager extends Collection {
   }
 
   paintKey(code) {
+    console.log(code);
     ColorUtil.addCodeToOverride(code);
     this.getKey(code).updateColors();
   }
