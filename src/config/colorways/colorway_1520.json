@@ -1,0 +1,35 @@
+{
+  "id": "1520",
+  "label": "1520",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#2C2C2C",
+      "color": "#EFEFEF"
+    },
+    "mods": {
+      "background": "#2C2C2C",
+      "color": "#F7D71B"
+    },
+    "accent": {
+      "background": "#D9D9D9",
+      "color": "#EFEFEF"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_F1": "accent",
+    "KC_F2": "accent",
+    "KC_F3": "accent",
+    "KC_F4": "accent",
+    "KC_F5": "accent",
+    "KC_F6": "accent",
+    "KC_F7": "accent",
+    "KC_F8": "accent",
+    "KC_F9": "accent",
+    "KC_F10": "accent",
+    "KC_F11": "accent",
+    "KC_F12": "accent"
+  }
+}

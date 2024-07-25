@@ -1,0 +1,28 @@
+{
+  "id": "apollo",
+  "label": "Apollo",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#4C565D",
+      "color": "#BABAB9"
+    },
+    "mods": {
+      "background": "#2B2E34",
+      "color": "#BABAB9"
+    },
+    "accent": {
+      "background": "#BABAB9",
+      "color": "#2B2E34"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

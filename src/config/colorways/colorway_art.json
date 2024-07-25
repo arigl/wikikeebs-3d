@@ -1,0 +1,28 @@
+{
+  "id": "art",
+  "label": "Art",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#D4CDBA",
+      "color": "#1B160E"
+    },
+    "mods": {
+      "background": "#D4CDBA",
+      "color": "#1B160E"
+    },
+    "accent": {
+      "background": "#A12E4F",
+      "color": "#1B160E"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

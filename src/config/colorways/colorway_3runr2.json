@@ -1,0 +1,28 @@
+{
+  "id": "threerunr2",
+  "label": "3RUN R2",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#DDD9CE",
+      "color": "#1E1C1B"
+    },
+    "mods": {
+      "background": "#D1C839",
+      "color": "#1E1C1B"
+    },
+    "accent": {
+      "background": "#2CA39B",
+      "color": "#1E1C1B"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

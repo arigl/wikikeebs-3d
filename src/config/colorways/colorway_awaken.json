@@ -1,0 +1,28 @@
+{
+  "id": "awaken",
+  "label": "Awaken",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#2B2B37",
+      "color": "#DFDB71"
+    },
+    "mods": {
+      "background": "#2B2B37",
+      "color": "#3AF8F6"
+    },
+    "accent": {
+      "background": "#2B2B37",
+      "color": "#F73467"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

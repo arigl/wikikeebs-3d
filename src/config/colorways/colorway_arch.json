@@ -1,0 +1,28 @@
+{
+  "id": "arch",
+  "label": "Arch",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#3A3D46",
+      "color": "#B0AFB4"
+    },
+    "mods": {
+      "background": "#2B2B35",
+      "color": "#607D82"
+    },
+    "accent": {
+      "background": "#B0AFB4",
+      "color": "#2B2B35"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

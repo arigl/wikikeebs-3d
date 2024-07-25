@@ -1,0 +1,28 @@
+{
+  "id": "amethyst",
+  "label": "Amethyst",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#CECDC9",
+      "color": "#3F3D4B"
+    },
+    "mods": {
+      "background": "#3F3D4B",
+      "color": "#A98EAD"
+    },
+    "accent": {
+      "background": "#A98EAD",
+      "color": "#3F3D4B"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

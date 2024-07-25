@@ -1,0 +1,28 @@
+{
+  "id": "aegyptus",
+  "label": "Aegyptus",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#C0BFBB",
+      "color": "#A28245"
+    },
+    "mods": {
+      "background": "#A28245",
+      "color": "#C0BFBB"
+    },
+    "accent": {
+      "background": "#237C5A",
+      "color": "#C0BFBB"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

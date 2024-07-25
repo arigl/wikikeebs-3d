@@ -1,0 +1,20 @@
+{
+  "id": "ascii",
+  "label": "Ascii",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#737676",
+      "color": "#D4D5D5"
+    },
+    "mods": {
+      "background": "#737676",
+      "color": "#D4D5D5"
+    },
+    "accent": {
+      "background": "#737676",
+      "color": "#D4D5D5"
+    }
+  },
+  "override": {}
+}

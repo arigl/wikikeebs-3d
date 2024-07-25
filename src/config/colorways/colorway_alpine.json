@@ -1,0 +1,24 @@
+{
+  "id": "alpine",
+  "label": "Alpine",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#524B53",
+      "color": "#A9A6A5"
+    },
+    "mods": {
+      "background": "#524B53",
+      "color": "#A9A6A5"
+    },
+    "accent": {
+      "background": "#ADA9A6",
+      "color": "#524B53"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent"
+  }
+}

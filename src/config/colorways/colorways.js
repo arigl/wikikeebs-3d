@@ -71,6 +71,25 @@ import colorway_finer_things from "./colorway_finer_things.json";
 import colorway_gregory from "./colorway_gregory.json";
 import colorway_pluto from "./colorway_pluto.json";
 
+// custom added by WikiKeebs
+import colorway_awaken from "./colorway_awaken.json";
+import colorway_avanguardia from "./colorway_avanguardia.json";
+import colorway_astral_light from "./colorway_astral_light.json";
+import colorway_ascii from "./colorway_ascii.json";
+import colorway_art from "./colorway_art.json";
+import colorway_arctic from "./colorway_arctic.json";
+import colorway_arch from "./colorway_arch.json";
+import colorway_apollo from "./colorway_apollo.json";
+import colorway_amethyst from "./colorway_amethyst.json";
+import colorway_alpine from "./colorway_alpine.json";
+import colorway_agent_01 from "./colorway_agent_01.json";
+import colorway_aegyptus from "./colorway_aegyptus.json";
+import colorway_abyssal from "./colorway_abyssal.json";
+import colorway_a from "./colorway_a.json";
+import colorway_1520 from "./colorway_1520.json";
+import colorway_3runr2 from "./colorway_3runr2.json";
+import colorway_3 from "./colorway_3.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -144,6 +163,23 @@ const COLORWAYS = {
   finer_things: colorway_finer_things,
   gregory: colorway_gregory,
   pluto: colorway_pluto,
+  awaken: colorway_awaken,
+  avanguardia: colorway_avanguardia,
+  astral_light: colorway_astral_light,
+  ascii: colorway_ascii,
+  art: colorway_art,
+  arctic: colorway_arctic,
+  arch: colorway_arch,
+  apollo: colorway_apollo,
+  amethyst: colorway_amethyst,
+  alpine: colorway_alpine,
+  agent_01: colorway_agent_01,
+  aegyptus: colorway_aegyptus,
+  abyssal: colorway_abyssal,
+  a: colorway_a,
+  1520: colorway_1520,
+  threerunr2: colorway_3runr2,
+  3: colorway_3,
 };
 
 export default COLORWAYS;

@@ -1,0 +1,28 @@
+{
+  "id": "arctic",
+  "label": "Arctic",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#EEEEF8",
+      "color": "#7B90B1"
+    },
+    "mods": {
+      "background": "#636871",
+      "color": "#EEEEF8"
+    },
+    "accent": {
+      "background": "#7B90B1",
+      "color": "#EEEEF8"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

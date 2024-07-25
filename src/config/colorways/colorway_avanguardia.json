@@ -1,0 +1,38 @@
+{
+  "id": "avanguardia",
+  "label": "Avanguardia",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#3F4046",
+      "color": "#655AB6"
+    },
+    "mods": {
+      "background": "#3F4046",
+      "color": "#655AB6"
+    },
+    "accent": {
+      "background": "#655AB6",
+      "color": "#E4E4E1"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_GRV": "accent",
+    "KC_1": "accent",
+    "KC_2": "accent",
+    "KC_3": "accent",
+    "KC_4": "accent",
+    "KC_5": "accent",
+    "KC_6": "accent",
+    "KC_7": "accent",
+    "KC_8": "accent",
+    "KC_9": "accent",
+    "KC_0": "accent",
+    "KC_MINS": "accent",
+    "KC_EQL": "accent",
+    "KC_BSPC": "accent"
+  }
+}

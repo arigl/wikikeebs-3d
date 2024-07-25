@@ -1,0 +1,28 @@
+{
+  "id": "astral_light",
+  "label": "Astral Light",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#D0DAF2",
+      "color": "#58617F"
+    },
+    "mods": {
+      "background": "#C0C9E8",
+      "color": "#58617F"
+    },
+    "accent": {
+      "background": "#C1DDE9",
+      "color": "#58617F"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

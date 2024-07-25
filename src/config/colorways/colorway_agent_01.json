@@ -1,0 +1,28 @@
+{
+  "id": "agent_01",
+  "label": "Agent 01",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#FFFFFF",
+      "color": "#373A49"
+    },
+    "mods": {
+      "background": "#373A49",
+      "color": "#FFFFFF"
+    },
+    "accent": {
+      "background": "#ADBAC3",
+      "color": "#373A49"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

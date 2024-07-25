@@ -1,0 +1,44 @@
+{
+  "id": "3",
+  "label": "3",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#545194",
+      "color": "#5C2E3E"
+    },
+    "mods": {
+      "background": "#545194",
+      "color": "#5C6AC8"
+    },
+    "accent": {
+      "background": "#2F2F2F",
+      "color": "#B8BABF"
+    },
+    "accent2": {
+      "background": "#545194",
+      "color": "#CCC845"
+    },
+    "accent3": {
+      "background": "#545194",
+      "color": "#36B091"
+    },
+    "accent4": {
+      "background": "#545194",
+      "color": "#E52F76"
+    }
+  },
+  "override": {
+    "KC_ENT": "accent",
+    "KC_LSFT": "accent2",
+    "KC_RSFT": "accent2",
+    "KC_LALT": "accent2",
+    "KC_RALT": "accent2",
+    "KC_TAB": "accent3",
+    "KC_LCTL": "accent3",
+    "KC_RCTL": "accent3",
+    "KC_CAPS": "accent4",
+    "KC_LGUI": "accent4",
+    "KC_RGUI": "accent4"
+  }
+}

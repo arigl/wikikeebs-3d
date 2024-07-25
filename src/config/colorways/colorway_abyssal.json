@@ -1,0 +1,21 @@
+{
+  "id": "abyssal",
+  "label": "Abyssal",
+  "manufacturer": "GMK",
+  "swatches": {
+    "base": {
+      "background": "#C4C1CC",
+      "color": "#5677A4"
+    },
+    "mods": {
+      "background": "#20202A",
+      "color": "#5677A4"
+    }
+  },
+  "override": {
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}
