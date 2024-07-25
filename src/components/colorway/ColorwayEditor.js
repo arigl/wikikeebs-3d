@@ -146,12 +146,12 @@ export default function ColorwayEditor() {
     <>
       <CollapsibleSection title="Colorway Editor" open={true}>
         <div className={styles.editor}>
-          <ToggleField
+          {/* <ToggleField
             value={paintWithKeys}
             label={"Apply swatches on keypress"}
             help={"Apply the selected swatch to each key pressed."}
             handler={() => dispatch(togglePaintWithKeys())}
-          />
+          /> */}
 
           <div className={styles.name}>
             <label htmlFor="colorway_name" className={styles.label}>
