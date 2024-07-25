@@ -1,0 +1,29 @@
+{
+  "id": "dragon_witch",
+  "label": "Dragon Witch",
+  "manufacturer": "",
+  "swatches": {
+    "base": {
+      "background": "#BFD8E6",
+      "color": "#5C2E3E"
+    },
+    "mods": {
+      "background": "#5C2E3E",
+      "color": "#BFD8E6"
+    },
+    "accent": {
+      "background": "#BB2F3A",
+      "color": "#5C2E3E"
+    }
+  },
+  "override": {
+    "KC_SPC": "base",
+    "KC_ENT": "accent",
+    "KC_ESC": "accent",
+    "KC_GESC": "accent",
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods"
+  }
+}

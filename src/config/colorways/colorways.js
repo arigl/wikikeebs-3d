@@ -70,6 +70,7 @@ import colorway_nuclear_data from "./colorway_nuclear_data.json";
 import colorway_finer_things from "./colorway_finer_things.json";
 import colorway_gregory from "./colorway_gregory.json";
 import colorway_pluto from "./colorway_pluto.json";
+import colorway_dragonwitch from "./colorway_dragonwitch.json";
 
 const COLORWAYS = {
   //APPEND
@@ -78,6 +79,7 @@ const COLORWAYS = {
   night_sakura: colorway_night_sakura,
   blacklight: colorway_blacklight,
   botanical: colorway_botanical,
+  dragon_witch: colorway_dragonwitch,
   amalfi: colorway_amalfi,
   wob: colorway_wob,
   bow: colorway_bow,
