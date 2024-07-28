@@ -1,0 +1,28 @@
+{
+    "id": "haku",
+    "label": "Haku",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#FFFFF7",
+      "color": "#7EBAB5"
+     },
+     "mods": {
+      "background": "#00685D",
+      "color": "#FFFFF7"
+     },
+     "accent": {
+      "background": "#7EBAB5",
+      "color": "#00685D"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

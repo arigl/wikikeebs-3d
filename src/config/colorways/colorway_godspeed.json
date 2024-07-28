@@ -1,0 +1,28 @@
+{
+    "id": "godspeed",
+    "label": "GodSpeed",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DBD7C4",
+      "color": "#7F8184"
+     },
+     "mods": {
+      "background": "#699BBF",
+      "color": "#DBD7C4"
+     },
+     "accent": {
+      "background": "#ECDA69",
+      "color": "#7F8184"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

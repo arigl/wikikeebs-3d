@@ -1,0 +1,18 @@
+{
+    "id": "honor_light",
+    "label": "Honor Light",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EFEAE4",
+      "color": "#444755"
+     },
+     "mods": {
+      "background": "#EFEAE4",
+      "color": "#444755"
+     }
+    },
+    "override": {
+   
+    }
+   }

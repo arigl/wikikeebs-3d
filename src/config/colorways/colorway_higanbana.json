@@ -1,0 +1,51 @@
+{
+    "id": "higanbana",
+    "label": "Higanbana",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#2B2B2D",
+      "color": "#BB1D10"
+     },
+     "mods": {
+      "background": "#851A22",
+      "color": "#2B2B2D"
+     },
+     "accent": {
+      "background": "#2B2B2D",
+      "color": "#F6B500"
+     },
+     "accent2": {
+        "background": "#851A22",
+        "color": "#F6B500"
+       }
+    },
+    "override": {
+        "KC_GRV": "accent",
+        "KC_1": "accent",
+        "KC_2": "accent",
+        "KC_3": "accent",
+        "KC_4": "accent",
+        "KC_5": "accent",
+        "KC_6": "accent",
+        "KC_7": "accent",
+        "KC_8": "accent",
+        "KC_9": "accent",
+        "KC_0": "accent",
+        "KC_MINS": "accent",
+        "KC_EQL": "accent",
+        "KC_BSPC": "accent",
+        "KC_BSLS": "mods",
+        "KC_ENT": "accent2",
+        "KC_UP": "accent2",
+        "KC_DOWN": "accent2",
+        "KC_LEFT": "accent2",
+        "KC_RGHT": "accent2",
+        "KC_PENT": "accent2",
+        "KC_F5": "mods",
+        "KC_F6": "mods",
+        "KC_F7": "mods",
+        "KC_F8": "mods",
+        "KC_ESC": "accent2"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "harvest",
+    "label": "Harvest",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DECFBC",
+      "color": "#902A2D"
+     },
+     "mods": {
+      "background": "#924D2C",
+      "color": "#DECFBC"
+     },
+     "accent": {
+      "background": "#902A2D",
+      "color": "#DECFBC"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

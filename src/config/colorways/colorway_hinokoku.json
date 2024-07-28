@@ -1,0 +1,28 @@
+{
+    "id": "hinokoku",
+    "label": "Hinokoku",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A42725",
+      "color": "#FEA82D"
+     },
+     "mods": {
+      "background": "#4D3537",
+      "color": "#FEA82D"
+     },
+     "accent": {
+      "background": "#FEA82D",
+      "color": "#4D3537"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

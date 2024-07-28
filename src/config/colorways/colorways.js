@@ -159,6 +159,26 @@ import colorway_cojiro from "./colorway_cojiro.json";
 import colorway_boneyard from "./colorway_boneyard.json";
 import colorway_birch from "./colorway_birch.json";
 
+// imported 7/28 part 2 starting with G
+import colorway_galaxy from "./colorway_galaxy.json";
+import colorway_gateway from "./colorway_gateway.json";
+import colorway_gladiator from "./colorway_gladiator.json";
+import colorway_godspeed from "./colorway_godspeed.json";
+import colorway_grand_prix from "./colorway_grand_prix.json";
+import colorway_grey_on_black from "./colorway_grey_on_black.json";
+import colorway_haku from "./colorway_haku.json";
+import colorway_hallyu from "./colorway_hallyu.json";
+import colorway_hanami_dango from "./colorway_hanami_dango.json";
+import colorway_hanok from "./colorway_hanok.json";
+import colorway_harvest from "./colorway_harvest.json";
+import colorway_hazakura from "./colorway_hazakura.json";
+import colorway_hennessey from "./colorway_hennessey.json";
+import colorway_higanbana from "./colorway_higanbana.json";
+import colorway_hineybeige from "./colorway_hineybeige.json";
+import colorway_hinokoku from "./colorway_hinokoku.json";
+import colorway_honey from "./colorway_honey.json";
+import colorway_houhai from "./colorway_houhai.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -317,6 +337,25 @@ const COLORWAYS = {
   cojiro: colorway_cojiro,
   boneyard: colorway_boneyard,
   birch: colorway_birch,
+  // 7/28 part 2
+  galaxy: colorway_galaxy,
+  gateway: colorway_gateway,
+  gladiator: colorway_gladiator,
+  godspeed: colorway_godspeed,
+  grand_prix: colorway_grand_prix,
+  grey_on_black: colorway_grey_on_black,
+  haku: colorway_haku,
+  hallyu: colorway_hallyu,
+  hanami_dango: colorway_hanami_dango,
+  hanok: colorway_hanok,
+  harvest: colorway_harvest,
+  hazakura: colorway_hazakura,
+  hennessey: colorway_hennessey,
+  higanbana: colorway_higanbana,
+  hineybeige: colorway_hineybeige,
+  hinokoku: colorway_hinokoku,
+  honey: colorway_honey,
+  houhai: colorway_houhai,
 };
 
 export default COLORWAYS;

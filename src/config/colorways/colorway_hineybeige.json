@@ -1,0 +1,17 @@
+{
+    "id": "hineybeige",
+    "label": "Hineybeige",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DFDBD0",
+      "color": "#1F1E1C"
+     },
+     "mods": {
+      "background": "#BFBCA9",
+      "color": "#1F1E1C"
+     }
+    },
+    "override": {
+    }
+   }

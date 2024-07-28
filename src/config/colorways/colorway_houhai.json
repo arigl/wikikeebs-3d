@@ -1,0 +1,61 @@
+{
+    "id": "houhai",
+    "label": "Houhai",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#252421",
+      "color": "#BE0000"
+     },
+     "mods": {
+      "background": "#252421",
+      "color": "#229D70"
+     },
+     "accent": {
+      "background": "#252421",
+      "color": "#006CA6"
+     },
+     "accent2": {
+        "background": "#252421",
+        "color": "#C68200"
+       },
+     "accent3": {
+        "background": "#252421",
+        "color": "#ffffff"
+       }
+    },
+    "override": {
+        "KC_ESC": "accent",
+        "KC_BSPC": "accent",
+        "KC_INS": "accent",
+        "KC_HOME": "accent",
+        "KC_PGUP": "accent",
+        "KC_P7": "mods",
+        "KC_P8": "mods",
+        "KC_P9": "mods",
+        "KC_P6": "mods",
+        "KC_P5": "mods",
+        "KC_P4": "mods",
+        "KC_P1": "mods",
+        "KC_P2": "mods",
+        "KC_P3": "mods",
+        "KC_P0": "mods",
+        "KC_PDOT": "mods",
+        "KC_LALT": "accent",
+        "KC_RALT": "accent",
+        "KC_CAPS": "accent2",
+        "KC_ENT": "accent2",
+        "KC_LGUI": "accent2",
+        "KC_RGUI": "accent2",
+        "KC_APP": "base",
+        "KC_RSFT": "accent3",
+        "KC_LSFT": "accent3",
+        "KC_UP": "accent3",
+        "KC_DOWN": "accent3",
+        "KC_LEFT": "accent3",
+        "KC_RGHT": "accent3",
+        "KC_PSCR": "base",
+        "KC_SLCK": "base",
+        "KC_PAUS": "base"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "hanami_dango",
+    "label": "Hanami Dango",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C7BFB2",
+      "color": "#78856A"
+     },
+     "mods": {
+      "background": "#78856A",
+      "color": "#B6636D"
+     },
+     "accent": {
+      "background": "#B6636D",
+      "color": "#78856A"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

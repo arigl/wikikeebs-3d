@@ -1,0 +1,28 @@
+{
+    "id": "hanok",
+    "label": "Hanok",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D8D2C3",
+      "color": "#393B3B"
+     },
+     "mods": {
+      "background": "#4F3727",
+      "color": "#D8D2C3"
+     },
+     "accent": {
+      "background": "#393B3B",
+      "color": "#D8D2C3"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

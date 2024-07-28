@@ -1,0 +1,18 @@
+{
+    "id": "honor_dark",
+    "label": "Honor Dark",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#444755",
+      "color": "#EFEAE4"
+     },
+     "mods": {
+      "background": "#444755",
+      "color": "#EFEAE4"
+     }
+    },
+    "override": {
+
+    }
+   }

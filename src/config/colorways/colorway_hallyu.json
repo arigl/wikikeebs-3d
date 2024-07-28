@@ -1,0 +1,83 @@
+{
+    "id": "hallyu",
+    "label": "Hallyu",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#3D4161",
+      "color": "#93AFD8"
+     },
+     "mods": {
+      "background": "#3D4161",
+      "color": "#93AFD8"
+     },
+     "accent": {
+      "background": "#3D4161",
+      "color": "#E4694C"
+     },
+     "accent2": {
+      "background": "#3D4161",
+      "color": "#FCB99D"
+     },
+     "accent3": {
+      "background": "#3D4161",
+      "color": "#F9BC4F"
+     }
+    },
+    "override": {
+        "KC_TAB": "accent",
+        "KC_Q": "accent",
+        "KC_W": "accent",
+        "KC_E": "accent",
+        "KC_R": "accent",
+        "KC_T": "accent",
+        "KC_Y": "accent",
+        "KC_U": "accent",
+        "KC_I": "accent",
+        "KC_O": "accent",
+        "KC_P": "accent",
+        "KC_LBRC": "accent",
+        "KC_RBRC": "accent",
+        "KC_BSLS": "accent",
+        "KC_DEL": "accent",
+        "KC_END": "accent",
+        "KC_PGDN": "accent",
+        "KC_P7": "accent",
+        "KC_P8": "accent",
+        "KC_P9": "accent",
+        "KC_PPLS": "accent",
+        "KC_CAPS": "accent2",
+        "KC_A": "accent2",
+        "KC_S": "accent2",
+        "KC_D": "accent2",
+        "KC_F": "accent2",
+        "KC_G": "accent2",
+        "KC_H": "accent2",
+        "KC_J": "accent2",
+        "KC_K": "accent2",
+        "KC_L": "accent2",
+        "KC_SCLN": "accent2",
+        "KC_QUOT": "accent2",
+        "KC_ENT": "accent2",
+        "KC_P4": "accent2",
+        "KC_P5": "accent2",
+        "KC_P6": "accent2",
+        "KC_LSFT": "accent3",
+        "KC_Z": "accent3",
+        "KC_X": "accent3",
+        "KC_C": "accent3",
+        "KC_V": "accent3",
+        "KC_B": "accent3",
+        "KC_N": "accent3",
+        "KC_M": "accent3",
+        "KC_COMM": "accent3",
+        "KC_DOT": "accent3",
+        "KC_SLSH": "accent3",
+        "KC_RSFT": "accent3",
+        "KC_UP": "accent3",
+        "KC_P1": "accent3",
+        "KC_P2": "accent3",
+        "KC_P3": "accent3",
+        "KC_PENT": "accent3"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "honey",
+    "label": "Honey",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7E499",
+      "color": "#FFC82C"
+     },
+     "mods": {
+      "background": "#FFC82C",
+      "color": "#F7E499"
+     },
+     "accent": {
+      "background": "#D2832B",
+      "color": "#F7E499"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "grey_on_black",
+    "label": "Grey on Black",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#171718",
+      "color": "#727474"
+     },
+     "mods": {
+      "background": "#171718",
+      "color": "#727474"
+     },
+     "accent": {
+      "background": "#727474",
+      "color": "#171718"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

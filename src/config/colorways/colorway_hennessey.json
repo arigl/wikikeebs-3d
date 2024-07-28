@@ -1,0 +1,19 @@
+{
+    "id": "hennessey",
+    "label": "Hennessey",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#FFFFFF",
+      "color": "#171718"
+     },
+     "mods": {
+      "background": "#FFFFFF",
+      "color": "#171718"
+     }
+ 
+    },
+    "override": {
+
+    }
+   }

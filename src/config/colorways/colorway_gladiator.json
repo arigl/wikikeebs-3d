@@ -1,0 +1,28 @@
+{
+    "id": "gladiator",
+    "label": "Gladiator",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#15222A",
+      "color": "#CCAF8D"
+     },
+     "mods": {
+      "background": "#212022",
+      "color": "#CCAF8D"
+     },
+     "accent": {
+      "background": "#CCAF8D",
+      "color": "#212022"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

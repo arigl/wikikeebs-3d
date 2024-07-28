@@ -1,0 +1,28 @@
+{
+    "id": "grand_prix",
+    "label": "Grand Prix",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C3C9D7",
+      "color": "#344259"
+     },
+     "mods": {
+      "background": "#344259",
+      "color": "#C4D13B"
+     },
+     "accent": {
+      "background": "#C4D13B",
+      "color": "#344259"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }
