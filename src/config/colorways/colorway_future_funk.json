@@ -1,0 +1,59 @@
+{
+    "id": "future_funk",
+    "label": "Future Funk",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#2E1A47",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#2E1A47",
+      "color": "#F04E98"
+     },
+     "accent": {
+      "background": "#2E1A47",
+      "color": "#F8BED6"
+     },
+     "accent2": {
+        "background": "#2E1A47",
+        "color": "#F6EB61"
+       },
+     "accent3": {
+        "background": "#2E1A47",
+        "color": "#A4BDE8"
+       }
+
+    },
+    "override": {
+    "KC_ESC": "mods",
+    "KC_PSCR": "base",
+    "KC_SLCK": "base",
+    "KC_PAUS": "base",
+    "KC_PGUP": "base",
+    "KC_HOME": "base",
+    "KC_INS": "base",
+    "KC_DEL": "base",
+    "KC_END": "base",
+    "KC_PGDN": "base",
+    "KC_PSLS": "base",
+    "KC_PAST": "base",
+    "KC_PMNS": "base",
+    "KC_PPLS": "base",
+    "KC_PENT": "base",
+    "KC_UP": "base",
+    "KC_DOWN": "base",
+    "KC_LEFT": "base",
+    "KC_RGHT": "base",
+    "KC_TAB": "accent",
+    "KC_RGUI": "accent",
+    "KC_LGUI": "accent",
+    "KC_CAPS": "accent2",
+    "KC_ENT": "accent2",
+    "KC_RALT": "accent2",
+    "KC_LALT": "accent2",
+    "KC_LSFT": "accent3",
+    "KC_RSFT": "accent3",
+    "KC_APP": "accent2"
+    }
+   }

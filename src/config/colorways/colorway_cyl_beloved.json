@@ -1,0 +1,21 @@
+{
+    "id": "cyl_beloved",
+    "label": "CYL Beloved",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C5C1C0",
+      "color": "#B67A8A"
+     },
+     "mods": {
+      "background": "#B67A8A",
+      "color": "#C5C1C0"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,21 @@
+{
+    "id": "cream_matcha",
+    "label": "Cream Matcha",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#80A35D",
+      "color": "#D2C7AB"
+     },
+     "mods": {
+      "background": "#D2C7AB",
+      "color": "#80A35D"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

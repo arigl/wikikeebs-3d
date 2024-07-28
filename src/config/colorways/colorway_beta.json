@@ -1,0 +1,28 @@
+{
+    "id": "beta",
+    "label": "Beta",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D2CBB9",
+      "color": "#292929"
+     },
+     "mods": {
+      "background": "#7A7C7B",
+      "color": "#292929"
+     },
+     "accent": {
+      "background": "#F1752D",
+      "color": "#292929"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

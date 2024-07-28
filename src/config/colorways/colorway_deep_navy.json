@@ -1,0 +1,28 @@
+{
+    "id": "deep_navy",
+    "label": "Deep Navy",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#040818",
+      "color": "#D9D6D1"
+     },
+     "mods": {
+      "background": "#040818",
+      "color": "#D9D6D1"
+     },
+     "accent": {
+      "background": "#D9D6D1",
+      "color": "#040818"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

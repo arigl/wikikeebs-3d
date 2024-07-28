@@ -1,0 +1,28 @@
+{
+    "id": "cocogoat",
+    "label": "Cocogoat",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DEEEFF",
+      "color": "#8194D4"
+     },
+     "mods": {
+      "background": "#8194D4",
+      "color": "#DEEEFF"
+     },
+     "accent": {
+      "background": "#9B3C44",
+      "color": "#DEEEFF"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

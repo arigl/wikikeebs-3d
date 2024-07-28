@@ -1,0 +1,28 @@
+{
+    "id": "earth_tones",
+    "label": "Earth Tones",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CDBCAA",
+      "color": "#295764"
+     },
+     "mods": {
+      "background": "#295764",
+      "color": "#CDBCAA"
+     },
+     "accent": {
+      "background": "#735030",
+      "color": "#CDBCAA"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

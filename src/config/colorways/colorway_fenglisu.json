@@ -1,0 +1,28 @@
+{
+    "id": "fenglisu",
+    "label": "FengLiSu",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E1D2B6",
+      "color": "#653C25"
+     },
+     "mods": {
+      "background": "#E7C062",
+      "color": "#653C25"
+     },
+     "accent": {
+      "background": "#E28D25",
+      "color": "#E1D2B6"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

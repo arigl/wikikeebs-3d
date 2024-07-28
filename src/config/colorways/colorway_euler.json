@@ -1,0 +1,28 @@
+{
+    "id": "euler",
+    "label": "Euler",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#272628",
+      "color": "#D0D2D1"
+     },
+     "mods": {
+      "background": "#141416",
+      "color": "#D0D2D1"
+     },
+     "accent": {
+      "background": "#888B8A",
+      "color": "#D0D2D1"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

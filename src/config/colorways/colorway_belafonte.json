@@ -1,0 +1,28 @@
+{
+    "id": "belafonte",
+    "label": "Belafonte",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#73BDCE",
+      "color": "#E4E1DB"
+     },
+     "mods": {
+      "background": "#2AA8BD",
+      "color": "#E4E1DB"
+     },
+     "accent": {
+      "background": "#FFC225",
+      "color": "#E4E1DB"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

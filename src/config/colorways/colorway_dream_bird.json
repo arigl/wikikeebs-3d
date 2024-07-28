@@ -1,0 +1,28 @@
+{
+    "id": "dream_bird",
+    "label": "Dream Bird",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#00249C",
+      "color": "#F8C200"
+     },
+     "mods": {
+      "background": "#292C45",
+      "color": "#F8C200"
+     },
+     "accent": {
+      "background": "#F8C200",
+      "color": "#292C45"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

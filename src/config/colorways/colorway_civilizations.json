@@ -1,0 +1,28 @@
+{
+    "id": "civilizations",
+    "label": "Civilizations",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E3E1E2",
+      "color": "#AC8349"
+     },
+     "mods": {
+      "background": "#E3E1E2",
+      "color": "#AC8349"
+     },
+     "accent": {
+      "background": "#AC8349",
+      "color": "#E3E1E2"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,22 @@
+{
+    "id": "fundamentals",
+    "label": "Fundamentals",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CAC4BE",
+      "color": "#000000"
+     },
+     "mods": {
+      "background": "#727474",
+      "color": "#CAC4BE"
+     }
+
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

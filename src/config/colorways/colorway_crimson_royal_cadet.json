@@ -1,0 +1,21 @@
+{
+    "id": "crimson_royal_cadet",
+    "label": "Crimson Royal Cadet",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C83D3C",
+      "color": "#FCFBFF"
+     },
+     "mods": {
+      "background": "#C83D3C",
+      "color": "#FCFBFF"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

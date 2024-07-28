@@ -1,0 +1,28 @@
+{
+    "id": "frost_witch",
+    "label": "Frost Witch",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C2C5DE",
+      "color": "#867BA6"
+     },
+     "mods": {
+      "background": "#867BA6",
+      "color": "#C2C5DE"
+     },
+     "accent": {
+      "background": "#5C5983",
+      "color": "#C2C5DE"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

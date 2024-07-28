@@ -1,0 +1,28 @@
+{
+    "id": "boho",
+    "label": "Boho",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C7C4BF",
+      "color": "#444340"
+     },
+     "mods": {
+      "background": "#444340",
+      "color": "#C7C4BF"
+     },
+     "accent": {
+      "background": "#805B4A",
+      "color": "#C7C4BF"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

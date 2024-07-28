@@ -1,0 +1,28 @@
+{
+    "id": "reforged",
+    "label": "ReForged",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A7522B",
+      "color": "#D1C9BC"
+     },
+     "mods": {
+      "background": "#2A3740",
+      "color": "#D1C9BC"
+     },
+     "accent": {
+      "background": "#D1C9BC",
+      "color": "#A7522B"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

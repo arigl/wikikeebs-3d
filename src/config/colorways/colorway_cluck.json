@@ -1,0 +1,28 @@
+{
+    "id": "cluck",
+    "label": "Cluck",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7F2EA",
+      "color": "#DD1126"
+     },
+     "mods": {
+      "background": "#F8DC28",
+      "color": "#DD1126"
+     },
+     "accent": {
+      "background": "#DD1126",
+      "color": "#F8DC28"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

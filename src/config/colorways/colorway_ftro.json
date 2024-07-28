@@ -1,0 +1,35 @@
+{
+    "id": "ftro",
+    "label": "FTRO",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#888580",
+      "color": "#CECABF"
+     },
+     "mods": {
+      "background": "#888580",
+      "color": "#CECABF"
+     },
+     "accent": {
+      "background": "#CECABF",
+      "color": "#888580"
+     }
+    },
+    "override": {
+        "KC_GRV": "accent",
+        "KC_1": "accent",
+        "KC_2": "accent",
+        "KC_3": "accent",
+        "KC_4": "accent",
+        "KC_5": "accent",
+        "KC_6": "accent",
+        "KC_7": "accent",
+        "KC_8": "accent",
+        "KC_9": "accent",
+        "KC_0": "accent",
+        "KC_MINS": "accent",
+        "KC_EQL": "accent",
+        "KC_BSPC": "accent"
+    }
+   }

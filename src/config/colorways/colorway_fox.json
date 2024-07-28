@@ -1,0 +1,28 @@
+{
+    "id": "fox",
+    "label": "Fox",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C0CBC7",
+      "color": "#20504E"
+     },
+     "mods": {
+      "background": "#20504E",
+      "color": "#C0CBC7"
+     },
+     "accent": {
+      "background": "#AC612C",
+      "color": "#C0CBC7"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

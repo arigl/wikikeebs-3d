@@ -1,0 +1,28 @@
+{
+    "id": "cojiro",
+    "label": "Cojiro",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A8B3CF",
+      "color": "#1E235A"
+     },
+     "mods": {
+      "background": "#1E235A",
+      "color": "#B748B7"
+     },
+     "accent": {
+      "background": "#B748B7",
+      "color": "#1E235A"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

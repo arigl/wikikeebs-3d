@@ -1,0 +1,28 @@
+{
+    "id": "dragon_witch",
+    "label": "Dragon Witch",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C5BCB2",
+      "color": "#312C42"
+     },
+     "mods": {
+      "background": "#312C42",
+      "color": "#C5BCB2"
+     },
+     "accent": {
+      "background": "#796EA7",
+      "color": "#312C42"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

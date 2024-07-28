@@ -1,0 +1,28 @@
+{
+    "id": "coral_r2",
+    "label": "Coral R2",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C3C2BD",
+      "color": "#C86E63"
+     },
+     "mods": {
+      "background": "#C86E63",
+      "color": "#C3C2BD"
+     },
+     "accent": {
+      "background": "#93B5B7",
+      "color": "#C86E63"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

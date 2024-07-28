@@ -1,0 +1,21 @@
+{
+    "id": "boneyard",
+    "label": "Boneyard",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#4A4B4A",
+      "color": "#E2D7C0"
+     },
+     "mods": {
+      "background": "#4A4B4A",
+      "color": "#E2D7C0"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

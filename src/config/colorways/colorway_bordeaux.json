@@ -1,0 +1,28 @@
+{
+    "id": "bordeaux",
+    "label": "Bordeaux",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#321118",
+      "color": "#FFD2B5"
+     },
+     "mods": {
+      "background": "#321118",
+      "color": "#FFD2B5"
+     },
+     "accent": {
+      "background": "#FFD2B5",
+      "color": "#321118"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

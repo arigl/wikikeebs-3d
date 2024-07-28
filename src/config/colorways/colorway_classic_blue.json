@@ -1,0 +1,21 @@
+{
+    "id": "classic_blue",
+    "label": "Classic Blue",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DCD9D4",
+      "color": "#204F89"
+     },
+     "mods": {
+      "background": "#204F89",
+      "color": "#DCD9D4"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

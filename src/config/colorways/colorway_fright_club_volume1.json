@@ -1,0 +1,57 @@
+{
+    "id": "fright_club_volume1",
+    "label": "Fright Club Volume 1",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#7E8080",
+      "color": "#525352"
+     },
+     "mods": {
+      "background": "#7E8080",
+      "color": "#DAE78F"
+     },
+     "accent": {
+      "background": "#7E8080",
+      "color": "#DDC2EB"
+     },
+     "accent2": {
+      "background": "#7E8080",
+      "color": "#BEECD4"
+     },
+     "accent3": {
+      "background": "#7E8080",
+      "color": "#FEBE77"
+     }
+    },
+    "override": {
+        "KC_ESC": "accent",
+        "KC_BSPC": "accent",
+        "KC_PENT": "accent",
+        "KC_TAB": "accent2",
+        "KC_LGUI": "accent2",
+        "KC_RGUI": "accent2",
+        "KC_UP": "base",
+        "KC_DOWN": "base",
+        "KC_LEFT": "base",
+        "KC_RGHT": "base",
+        "KC_NLCK": "accent3",
+        "KC_PSLS": "base",
+        "KC_PAST": "base",
+        "KC_PMNS": "base",
+        "KC_PPLS": "base",
+        "KC_PSCR": "base",
+        "KC_SLCK": "base",
+        "KC_PAUS": "base",
+        "KC_PGUP": "base",
+        "KC_HOME": "base",
+        "KC_INS": "base",
+        "KC_DEL": "base",
+        "KC_END": "base",
+        "KC_PGDN": "base",
+        "KC_LSFT": "accent3",
+        "KC_RSFT": "accent3",
+        "KC_LCTL": "accent",
+        "KC_RCTL": "accent"
+    }
+   }

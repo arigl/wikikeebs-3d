@@ -1,0 +1,28 @@
+{
+    "id": "devoted",
+    "label": "Devoted",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#1F3357",
+      "color": "#BCB7CF"
+     },
+     "mods": {
+      "background": "#1F1F1F",
+      "color": "#BCB7CF"
+     },
+     "accent": {
+      "background": "#BCB7CF",
+      "color": "#1F3357"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

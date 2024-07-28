@@ -1,0 +1,28 @@
+{
+    "id": "dandy",
+    "label": "Dandy",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D5D1C6",
+      "color": "#7A9078"
+     },
+     "mods": {
+      "background": "#D5D1C6",
+      "color": "#7A9078"
+     },
+     "accent": {
+      "background": "#7A9078",
+      "color": "#D5D1C6"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

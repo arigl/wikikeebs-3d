@@ -1,0 +1,21 @@
+{
+    "id": "classic_red",
+    "label": "Classic Red",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D1CCC6",
+      "color": "#A62D2A"
+     },
+     "mods": {
+      "background": "#A62D2A",
+      "color": "#D1CCC6"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

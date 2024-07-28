@@ -1,0 +1,21 @@
+{
+    "id": "cyl_alter_redux",
+    "label": "CYL Alter Redux",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#4B566D",
+      "color": "#A83630"
+     },
+     "mods": {
+      "background": "#565458",
+      "color": "#A83630"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

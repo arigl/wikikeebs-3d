@@ -1,0 +1,28 @@
+{
+    "id": "boulder",
+    "label": "Boulder",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#434343",
+      "color": "#8C7F70"
+     },
+     "mods": {
+      "background": "#8C7F70",
+      "color": "#434343"
+     },
+     "accent": {
+      "background": "#CFC3AD",
+      "color": "#434343"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

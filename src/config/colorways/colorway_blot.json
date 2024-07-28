@@ -1,0 +1,21 @@
+{
+    "id": "blot",
+    "label": "Blot",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#5B252B",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#5B252B",
+      "color": "#F7F2EA"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

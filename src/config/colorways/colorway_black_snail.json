@@ -1,0 +1,28 @@
+{
+    "id": "black_snail",
+    "label": "Black Snail",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#252525",
+      "color": "#EDE6D4"
+     },
+     "mods": {
+      "background": "#252525",
+      "color": "#EDE6D4"
+     },
+     "accent": {
+      "background": "#EDE6D4",
+      "color": "#252525"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

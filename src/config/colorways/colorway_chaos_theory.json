@@ -1,0 +1,28 @@
+{
+    "id": "chaos_theory",
+    "label": "Chaos Theory",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#BDC0C4",
+      "color": "#1B1A28"
+     },
+     "mods": {
+      "background": "#1B1A28",
+      "color": "#CB6BBA"
+     },
+     "accent": {
+      "background": "#CB6BBA",
+      "color": "#1B1A28"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

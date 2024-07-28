@@ -1,0 +1,28 @@
+{
+    "id": "foundation",
+    "label": "Foundation",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EAE4DF",
+      "color": "#A89B8E"
+     },
+     "mods": {
+      "background": "#A89B8E",
+      "color": "#EAE4DF"
+     },
+     "accent": {
+      "background": "#3B3737",
+      "color": "#EAE4DF"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,42 @@
+{
+    "id": "dualshot_r2",
+    "label": "Dualshot R2",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#838381",
+      "color": "#191513"
+     },
+     "mods": {
+      "background": "#838381",
+      "color": "#191513"
+     },
+     "accent1": {
+      "background": "#838381",
+      "color": "#ED3228"
+     },
+     "accent2": {
+        "background": "#838381",
+        "color": "#F2BC0A"
+       },
+     "accent3": {
+        "background": "#838381",
+        "color": "#53BCC4"
+       },
+     "accent4": {
+        "background": "#838381",
+        "color": "#2A95CC"
+       }
+    },
+    "override": {
+     "KC_ESC": "accent",
+     "KC_GRV": "accent",
+     "KC_BSPC": "accent",
+     "KC_TAB": "accent2",
+     "KC_BSLS": "accent2",
+     "KC_CAPS": "accent3",
+     "KC_ENT": "accent3",
+     "KC_LSFT": "accent4",
+     "KC_RSFT": "accent4"
+    }
+   }

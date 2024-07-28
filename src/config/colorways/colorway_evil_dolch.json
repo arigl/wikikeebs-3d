@@ -1,0 +1,28 @@
+{
+    "id": "evil_dolch",
+    "label": "Evil Dolch",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#424347",
+      "color": "#FCFCFC"
+     },
+     "mods": {
+      "background": "#1E1E1E",
+      "color": "#782B33"
+     },
+     "accent": {
+      "background": "#782B33",
+      "color": "#1E1E1E"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

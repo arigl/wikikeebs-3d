@@ -1,0 +1,28 @@
+{
+    "id": "british_racing_green",
+    "label": "British Racing Green",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CFCAC4",
+      "color": "#112D21"
+     },
+     "mods": {
+      "background": "#112D21",
+      "color": "#CFCAC4"
+     },
+     "accent": {
+      "background": "#A98B65",
+      "color": "#112D21"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

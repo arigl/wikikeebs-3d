@@ -1,0 +1,24 @@
+{
+    "id": "blink",
+    "label": "Blink",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#141316",
+      "color": "#D78C9C"
+     },
+     "mods": {
+      "background": "#D78C9C",
+      "color": "#141316"
+     }
+    },
+    "override": {
+     "KC_ENT": "mods",
+     "KC_ESC": "mods",
+     "KC_GESC": "mods",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

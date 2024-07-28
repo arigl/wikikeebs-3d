@@ -90,6 +90,75 @@ import colorway_1520 from "./colorway_1520.json";
 import colorway_3runr2 from "./colorway_3runr2.json";
 import colorway_3 from "./colorway_3.json";
 
+// custom added on 7/28/2024
+import colorway_demon_sword from "./colorway_demon_sword.json";
+import colorway_fundamentals from "./colorway_fundamentals.json";
+import colorway_dragon_witch from "./colorway_dragon_witch.json";
+import colorway_frost_witch from "./colorway_frost_witch.json";
+import colorway_baltic from "./colorway_baltic.json";
+import colorway_reforged from "./colorway_reforged.json";
+import colorway_evil_dolch from "./colorway_evil_dolch.json";
+import colorway_deepwell from "./colorway_deepwell.json";
+import colorway_deep_navy from "./colorway_deep_navy.json";
+import colorway_foundation from "./colorway_foundation.json";
+import colorway_devoted from "./colorway_devoted.json";
+import colorway_firefly_r2 from "./colorway_firefly_r2.json";
+import colorway_fox from "./colorway_fox.json";
+import colorway_dream_bird from "./colorway_dream_bird.json";
+import colorway_euler from "./colorway_euler.json";
+import colorway_future_funk from "./colorway_future_funk.json";
+import colorway_dualshot_r2 from "./colorway_dualshot_r2.json";
+import colorway_dmg_r3 from "./colorway_dmg_r3.json";
+import colorway_fright_club_volume1 from "./colorway_fright_club_volume1.json";
+import colorway_electric from "./colorway_electric.json";
+import colorway_dune from "./colorway_dune.json";
+import colorway_fleuriste from "./colorway_fleuriste.json";
+import colorway_crimson_royal_cadet from "./colorway_crimson_royal_cadet.json";
+import colorway_evil_eye from "./colorway_evil_eye.json";
+import colorway_cream_matcha from "./colorway_cream_matcha.json";
+import colorway_cocogoat from "./colorway_cocogoat.json";
+import colorway_cyl_extended from "./colorway_cyl_extended.json";
+import colorway_ftro from "./colorway_ftro.json";
+import colorway_cyl_alter_redux from "./colorway_cyl_alter_redux.json";
+import colorway_coral_r2 from "./colorway_coral_r2.json";
+import colorway_classic_beige from "./colorway_classic_beige.json";
+import colorway_classic_red from "./colorway_classic_red.json";
+import colorway_dandy from "./colorway_dandy.json";
+import colorway_cobalt from "./colorway_cobalt.json";
+import colorway_darling from "./colorway_darling.json";
+import colorway_fuji from "./colorway_fuji.json";
+import colorway_daifuku from "./colorway_daifuku.json";
+import colorway_cluck from "./colorway_cluck.json";
+import colorway_cyl_zx from "./colorway_cyl_zx.json";
+import colorway_colorchrome from "./colorway_colorchrome.json";
+import colorway_classic_arabic from "./colorway_classic_arabic.json";
+import colorway_dolch_r5 from "./colorway_dolch_r5.json";
+import colorway_diner from "./colorway_diner.json";
+import colorway_dracula_r2 from "./colorway_dracula _r2.json";
+import colorway_fenglisu from "./colorway_fenglisu.json";
+import colorway_british_racing_green from "./colorway_british_racing_green.json";
+import colorway_classic_blue from "./colorway_classic_blue.json";
+import colorway_earth_tones from "./colorway_earth_tones.json";
+import colorway_blot from "./colorway_blot.json";
+import colorway_boulder from "./colorway_boulder.json";
+import colorway_blanc_sur_noir from "./colorway_blanc_sur_noir.json";
+import colorway_civilizations from "./colorway_civilizations.json";
+import colorway_blink from "./colorway_blink.json";
+import colorway_black_snail from "./colorway_black_snail.json";
+import colorway_chaos_theory from "./colorway_chaos_theory.json";
+import colorway_bleached from "./colorway_bleached.json";
+import colorway_blossom from "./colorway_blossom.json";
+import colorway_belafonte from "./colorway_belafonte.json";
+import colorway_boho from "./colorway_boho.json";
+import colorway_bordeaux from "./colorway_bordeaux.json";
+import colorway_cyl_beloved from "./colorway_cyl_beloved.json";
+import colorway_bingsu_r2 from "./colorway_bingsu_r2.json";
+import colorway_cinder from "./colorway_cinder.json";
+import colorway_beta from "./colorway_beta.json";
+import colorway_cojiro from "./colorway_cojiro.json";
+import colorway_boneyard from "./colorway_boneyard.json";
+import colorway_birch from "./colorway_birch.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -180,6 +249,74 @@ const COLORWAYS = {
   1520: colorway_1520,
   threerunr2: colorway_3runr2,
   3: colorway_3,
+  /// imported on 7/28/2024
+  demon_sword: colorway_demon_sword,
+  fundamentals: colorway_fundamentals,
+  dragon_witch: colorway_dragon_witch,
+  frost_witch: colorway_frost_witch,
+  baltic: colorway_baltic,
+  reforged: colorway_reforged,
+  evil_dolch: colorway_evil_dolch,
+  deepwell: colorway_deepwell,
+  deep_navy: colorway_deep_navy,
+  foundation: colorway_foundation,
+  devoted: colorway_devoted,
+  firefly_r2: colorway_firefly_r2,
+  fox: colorway_fox,
+  dream_bird: colorway_dream_bird,
+  euler: colorway_euler,
+  future_funk: colorway_future_funk,
+  dualshot_r2: colorway_dualshot_r2,
+  dmg_r3: colorway_dmg_r3,
+  fright_club_volume1: colorway_fright_club_volume1,
+  electric: colorway_electric,
+  dune: colorway_dune,
+  fleuriste: colorway_fleuriste,
+  crimson_royal_cadet: colorway_crimson_royal_cadet,
+  evil_eye: colorway_evil_eye,
+  cream_matcha: colorway_cream_matcha,
+  cocogoat: colorway_cocogoat,
+  cyl_extended: colorway_cyl_extended,
+  ftro: colorway_ftro,
+  cyl_alter_redux: colorway_cyl_alter_redux,
+  coral_r2: colorway_coral_r2,
+  classic_beige: colorway_classic_beige,
+  classic_red: colorway_classic_red,
+  dandy: colorway_dandy,
+  cobalt: colorway_cobalt,
+  darling: colorway_darling,
+  fuji: colorway_fuji,
+  daifuku: colorway_daifuku,
+  cluck: colorway_cluck,
+  cyl_zx: colorway_cyl_zx,
+  colorchrome: colorway_colorchrome,
+  classic_arabic: colorway_classic_arabic,
+  dolch_r5: colorway_dolch_r5,
+  diner: colorway_diner,
+  dracula_r2: colorway_dracula_r2,
+  fenglisu: colorway_fenglisu,
+  british_racing_green: colorway_british_racing_green,
+  classic_blue: colorway_classic_blue,
+  earth_tones: colorway_earth_tones,
+  blot: colorway_blot,
+  boulder: colorway_boulder,
+  blanc_sur_noir: colorway_blanc_sur_noir,
+  civilizations: colorway_civilizations,
+  blink: colorway_blink,
+  black_snail: colorway_black_snail,
+  chaos_theory: colorway_chaos_theory,
+  bleached: colorway_bleached,
+  blossom: colorway_blossom,
+  belafonte: colorway_belafonte,
+  boho: colorway_boho,
+  bordeaux: colorway_bordeaux,
+  cyl_beloved: colorway_cyl_beloved,
+  bingsu_r2: colorway_bingsu_r2,
+  cinder: colorway_cinder,
+  beta: colorway_beta,
+  cojiro: colorway_cojiro,
+  boneyard: colorway_boneyard,
+  birch: colorway_birch,
 };
 
 export default COLORWAYS;

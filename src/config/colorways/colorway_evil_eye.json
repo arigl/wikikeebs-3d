@@ -1,0 +1,28 @@
+{
+    "id": "evil_eye",
+    "label": "Evil Eye",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EDEAE4",
+      "color": "#312E36"
+     },
+     "mods": {
+      "background": "#0266BD",
+      "color": "#EDEAE4"
+     },
+     "accent": {
+      "background": "#0092DE",
+      "color": "#EDEAE4"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

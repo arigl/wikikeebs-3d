@@ -1,0 +1,28 @@
+{
+    "id": "dolch_r5",
+    "label": "Dolch R5",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#63605B",
+      "color": "#E0DFDC"
+     },
+     "mods": {
+      "background": "#3E4040",
+      "color": "#E0DFDC"
+     },
+     "accent": {
+      "background": "#32958C",
+      "color": "#E0DFDC"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

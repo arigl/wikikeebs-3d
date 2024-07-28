@@ -1,0 +1,28 @@
+{
+    "id": "cinder",
+    "label": "Cinder",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#4F5758",
+      "color": "#FA6D26"
+     },
+     "mods": {
+      "background": "#4F5758",
+      "color": "#393D40"
+     },
+     "accent": {
+      "background": "#1B1A28",
+      "color": "#FA6D26"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

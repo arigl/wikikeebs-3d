@@ -1,0 +1,28 @@
+{
+    "id": "classic_arabic",
+    "label": "Classic Arabic",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D8D0C2",
+      "color": "#1D1D1E"
+     },
+     "mods": {
+      "background": "#ABA490",
+      "color": "#1D1D1E"
+     },
+     "accent": {
+      "background": "#306B39",
+      "color": "#1D1D1E"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

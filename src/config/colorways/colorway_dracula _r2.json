@@ -1,0 +1,55 @@
+{
+    "id": "dracula_r2",
+    "label": "Dracula R2",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#505974",
+      "color": "#DADBD8"
+     },
+     "mods": {
+      "background": "#22232A",
+      "color": "#DADBD8"
+     },
+     "accent": {
+      "background": "#22232A",
+      "color": "#7FC7D8"
+     },
+     "accent2": {
+      "background": "#22232A",
+      "color": "#E466AE"
+     },
+     "accent3": {
+      "background": "#22232A",
+      "color": "#D6DC99"
+     },
+     "accent4": {
+      "background": "#22232A",
+      "color": "#53B260"
+     },
+     "accent5": {
+        "background": "#22232A",
+        "color": "#BBA1D3"
+       }
+    },
+    "override": {
+    "KC_F5": "mods",
+    "KC_F6": "mods",
+    "KC_F7": "mods",
+    "KC_F8": "mods",
+    "KC_ESC": "accent",
+    "KC_LSFT": "accent",
+    "KC_RSFT": "accent",
+    "KC_TAB": "accent2",
+    "KC_BSPC": "accent2",
+    "KC_LGUI": "accent2",
+    "KC_RGUI": "accent2",
+    "KC_APP": "accent4",
+    "KC_CAPS": "accent5",
+    "KC_ENT": "accent5",
+    "KC_LALT": "accent5",
+    "KC_RALT": "accent5",
+    "KC_LCTL": "accent3",
+    "KC_RCTL": "accent3"
+    }
+   }

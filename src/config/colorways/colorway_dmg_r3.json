@@ -1,0 +1,28 @@
+{
+    "id": "dmg_r3",
+    "label": "DMG R3",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E2DDDE",
+      "color": "#2A2974"
+     },
+     "mods": {
+      "background": "#A1959D",
+      "color": "2A2974"
+     },
+     "accent": {
+      "background": "#952166",
+      "color": "#E2DDDE"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "birch",
+    "label": "Birch",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E2D8CD",
+      "color": "#314D5B"
+     },
+     "mods": {
+      "background": "#D3B99F",
+      "color": "#314D5B"
+     },
+     "accent": {
+      "background": "#314D5B",
+      "color": "#D3B99F"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

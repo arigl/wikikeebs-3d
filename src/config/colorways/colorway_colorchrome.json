@@ -1,0 +1,59 @@
+{
+    "id": "colorchrome",
+    "label": "Colorchrome",
+    "manufacturer": "GMK",
+    "swatches": {
+
+    "base": {
+    "background": "#ffffff",
+    "color": "#000000"
+    },
+    "mods": {
+    "background": "#000000",
+    "color": "#fdff1d"
+    },
+    "accent": {
+    "background": "#000000",
+    "color": "#db4292"
+    },
+    "accent2": {
+    "background": "#000000",
+    "color": "#fe2910"
+    },
+    "accent3": {
+    "background": "#000000",
+   "color": "#6d3b9e"
+    },
+    "accent4": {
+    "background": "#000000",
+    "color": "#004fb8"
+    }
+ },
+ "override": {
+  "KC_ESC": "mods",
+  "KC_F5": "mods",
+  "KC_F6": "mods",
+  "KC_F7": "mods",
+  "KC_F8": "mods",
+  "KC_RSFT": "accent4",
+  "KC_LSFT": "accent4",
+  "KC_APP": "accent3",
+  "KC_TAB": "accent3",
+  "KC_DEL": "accent3",
+  "KC_END": "accent3",
+  "KC_PGDN": "accent3",
+  "KC_INS": "accent2",
+  "KC_HOME": "accent2",
+  "KC_PGUP": "accent2",
+  "KC_NLCK": "accent2",
+  "KC_PSLS": "accent2",
+  "KC_PAST": "accent2",
+  "KC_PMNS": "accent2",
+  "KC_PPLS": "accent3",
+  "KC_LGUI": "accent2",
+  "KC_RGUI": "accent2",
+  "KC_LCTL": "accent",
+  "KC_RCTL": "accent",
+  "KC_BSPC": "accent2"
+ }
+}

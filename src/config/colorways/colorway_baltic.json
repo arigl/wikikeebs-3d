@@ -1,0 +1,28 @@
+{
+    "id": "baltic",
+    "label": "Baltic",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#08917F",
+      "color": "#C7AA1E"
+     },
+     "mods": {
+      "background": "#287869",
+      "color": "#C7AA1E"
+     },
+     "accent": {
+      "background": "#C7AA1E",
+      "color": "#287869"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "demon_sword",
+    "label": "Demon Sword",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E1DFD4",
+      "color": "#1C324F"
+     },
+     "mods": {
+      "background": "#1C324F",
+      "color": "#E1DFD4"
+     },
+     "accent": {
+      "background": "#902827",
+      "color": "#E1DFD4"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,28 @@
+{
+    "id": "blossom",
+    "label": "Blossom",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#AF8D9B",
+      "color": "#5C253C"
+     },
+     "mods": {
+      "background": "#5C253C",
+      "color": "#AF8D9B"
+     },
+     "accent": {
+      "background": "#56407E",
+      "color": "#AF8D9B"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

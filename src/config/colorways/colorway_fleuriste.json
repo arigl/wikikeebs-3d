@@ -1,0 +1,32 @@
+{
+    "id": "fleuriste",
+    "label": "Fleuriste",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C6B393",
+      "color": "#E2E473F"
+     },
+     "mods": {
+      "background": "#CEC4AD",
+      "color": "#5B2B46"
+     },
+     "accent": {
+      "background": "#5B2B46",
+      "color": "#CEC4AD"
+     },
+     "accent2": {
+        "background": "#2E473F",
+        "color": "#CEC4AD"
+       }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

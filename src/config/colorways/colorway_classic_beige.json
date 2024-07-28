@@ -1,0 +1,21 @@
+{
+    "id": "classic_beige",
+    "label": "Classic Beige",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C5C4BF",
+      "color": "#21242A"
+     },
+     "mods": {
+      "background": "#A2A298",
+      "color": "21242A"
+     }
+    },
+    "override": {
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

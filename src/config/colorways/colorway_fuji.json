@@ -1,0 +1,28 @@
+{
+    "id": "fuji",
+    "label": "Fuji",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CFD5D7",
+      "color": "#6F7D8B"
+     },
+     "mods": {
+      "background": "#6F7D8B",
+      "color": "#CFD5D7"
+     },
+     "accent": {
+      "background": "#C6B0C2",
+      "color": "#CFD5D7"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

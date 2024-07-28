@@ -1,0 +1,78 @@
+{
+    "id": "diner",
+    "label": "Diner",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#577A98",
+      "color": "#C1AD57"
+     },
+     "mods": {
+      "background": "#AD5348",
+      "color": "#C1AD57"
+     },
+     "accent": {
+      "background": "#C1AD57",
+      "color": "#AD5348"
+     },
+     "accent2": {
+      "background": "#4B6385",
+      "color": "#C1AD57"
+     }
+    },
+    "override": {
+        "KC_ENT": "accent",
+        "KC_INS": "accent",
+        "KC_HOME": "accent",
+        "KC_PGUP": "accent",
+        "KC_PGDN": "accent",
+        "KC_END": "accent",
+        "KC_DEL": "accent",
+        "KC_PSCR": "accent",
+        "KC_SLCK": "accent",
+        "KC_PAUS": "accent",
+        "KC_F8": "accent",
+        "KC_F7": "accent",
+        "KC_F6": "accent",
+        "KC_F5": "accent",
+        "KC_F1": "mods",
+        "KC_F2": "mods",
+        "KC_F3": "mods",
+        "KC_F4": "mods",
+        "KC_F9": "mods",
+        "KC_F10": "mods",
+        "KC_F11": "mods",
+        "KC_F12": "mods",
+        "KC_ESC": "accent",
+        "KC_Q": "accent2",
+        "KC_W": "accent2",
+        "KC_E": "accent2",
+        "KC_R": "accent2",
+        "KC_T": "accent2",
+        "KC_Y": "accent2",
+        "KC_U": "accent2",
+        "KC_I": "accent2",
+        "KC_O": "accent2",
+        "KC_P": "accent2",
+        "KC_A": "accent2",
+        "KC_S": "accent2",
+        "KC_D": "accent2",
+        "KC_F": "accent2",
+        "KC_G": "accent2",
+        "KC_H": "accent2",
+        "KC_J": "accent2",
+        "KC_K": "accent2",
+        "KC_L": "accent2",
+        "KC_Z": "accent2",
+        "KC_X": "accent2",
+        "KC_C": "accent2",
+        "KC_V": "accent2",
+        "KC_B": "accent2",
+        "KC_N": "accent2",
+        "KC_M": "accent2",
+        "KC_UP": "accent2",
+        "KC_DOWN": "accent2",
+        "KC_LEFT": "accent2",
+        "KC_RGHT": "accent2"
+    }
+   }

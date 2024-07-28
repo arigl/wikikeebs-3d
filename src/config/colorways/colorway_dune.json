@@ -1,0 +1,28 @@
+{
+    "id": "dune",
+    "label": "Dune",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#BAAB8A",
+      "color": "#C8C5BE"
+     },
+     "mods": {
+      "background": "#BAAB8A",
+      "color": "#C8C5BE"
+     },
+     "accent": {
+      "background": "#C8C5BE",
+      "color": "#BAAB8A"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

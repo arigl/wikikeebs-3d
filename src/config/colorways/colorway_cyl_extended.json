@@ -1,0 +1,26 @@
+{
+    "id": "cyl_extended",
+    "label": "CYL Extended",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DAD7C9",
+      "color": "#514F48"
+     },
+     "mods": {
+      "background": "#DAD7C9",
+      "color": "#514F48"
+     },
+     "accent": {
+      "background": "#ADE5A7",
+      "color": "#514F48"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods"
+    }
+   }

@@ -1,0 +1,48 @@
+{
+    "id": "cyl_zx",
+    "label": "CYL ZX",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#5D6969",
+      "color": "#DDE4E5"
+     },
+     "mods": {
+      "background": "#5D6969",
+      "color": "#DDE4E5"
+     },
+     "accent": {
+      "background": "#FE0000",
+      "color": "#1F140D"
+     },
+     "accent2": {
+        "background": "#E5C939",
+        "color": "#1F140D"
+       },
+    "accent3": {
+        "background": "#98CB28",
+        "color": "#1F140D"
+       },
+    "accent4": {
+        "background": "#00D6DF",
+        "color": "#1F140D"
+       }
+    },
+    "override": {
+        "KC_3": "accent",
+        "KC_W": "accent",
+        "KC_A": "accent",
+        "KC_4": "accent2",
+        "KC_E": "accent2",
+        "KC_S": "accent2",
+        "KC_Z": "accent2",
+        "KC_5": "accent3",
+        "KC_R": "accent3",
+        "KC_D": "accent3",
+        "KC_X": "accent3",
+        "KC_6": "accent4",
+        "KC_T": "accent4",
+        "KC_F": "accent4",
+        "KC_C": "accent4"
+    }
+   }
