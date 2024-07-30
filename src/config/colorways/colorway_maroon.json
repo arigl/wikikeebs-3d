@@ -1,0 +1,29 @@
+{
+    "id": "maroon",
+    "label": "Maroon",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#471133",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#471133",
+      "color": "#F7F2EA"
+     },
+     "accent": {
+      "background": "#F7F2EA",
+      "color": "#471133"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

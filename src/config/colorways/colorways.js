@@ -178,6 +178,59 @@ import colorway_hineybeige from "./colorway_hineybeige.json";
 import colorway_hinokoku from "./colorway_hinokoku.json";
 import colorway_honey from "./colorway_honey.json";
 import colorway_houhai from "./colorway_houhai.json";
+import colorway_hooty from "./colorway_hooty.json";
+import colorway_honor_light from "./colorway_honor_light.json";
+import colorway_honor_dark from "./colorway_honor_dark.json";
+
+// imported 7/30
+import colorway_iceberg from "./colorway_iceberg.json";
+import colorway_iconographic from "./colorway_iconographic.json";
+import colorway_indigo from "./colorway_indigo.json";
+import colorway_infernal from "./colorway_infernal.json";
+import colorway_inukuma from "./colorway_inukuma.json";
+import colorway_ishtar from "./colorway_ishtar.json";
+import colorway_jags from "./colorway_jags.json";
+import colorway_jelly_delights from "./colorway_jelly_delights.json";
+import colorway_jis from "./colorway_jis.json";
+import colorway_kitsune from "./colorway_kitsune.json";
+import colorway_kouhai from "./colorway_Kouhai.json";
+import colorway_lavender from "./colorway_lavender.json";
+import colorway_lazurite from "./colorway_lazurite.json";
+import colorway_liftoff from "./colorway_liftoff.json";
+import colorway_lilac_on_black from "./colorway_lilac_on_black.json";
+import colorway_lux from "./colorway_lux.json";
+import colorway_lychee from "./colorway_lychee.json";
+import colorway_maestro from "./colorway_maestro.json";
+import colorway_manta from "./colorway_manta.json";
+import colorway_marmoreal from "./colorway_marmoreal.json";
+import colorway_maroon from "./colorway_maroon.json";
+import colorway_masterpiece from "./colorway_masterpiece.json";
+import colorway_matcha_mocha from "./colorway_matcha_mocha.json";
+import colorway_mercury from "./colorway_mercury.json";
+import colorway_mika from "./colorway_mika.json";
+import colorway_moai from "./colorway_moai.json";
+import colorway_modern_ink from "./colorway_modern_ink.json";
+import colorway_modern_japanese_desko from "./colorway_modern_japanese_desko";
+import colorway_modern_materials from "./colorway_modern_materials.json";
+import colorway_momo_yume from "./colorway_momo_yume.json";
+import colorway_monarch from "./colorway_monarch.json";
+import colorway_monochrome_r2 from "./colorway_monochrome_r2.json";
+import colorway_monokai_material from "./colorway_monokai_material.json";
+import colorway_moomin from "./colorway_moomin.json";
+import colorway_moonlight from "./colorway_moonlight.json";
+import colorway_mudbeam from "./colorway_mudbeam.json";
+import colorway_muted_retro from "./colorway_muted_retro.json";
+import colorway_nerve from "./colorway_nerve.json";
+import colorway_nightlife from "./colorway_nightlife.json";
+import colorway_nightshade from "./colorway_nightshade.json";
+import colorway_nimbus from "./colorway_nimbus.json";
+import colorway_noel from "./colorway_noel.json";
+import colorway_norse from "./colorway_norse.json";
+import colorway_november_fog from "./colorway_november_fog.json";
+import colorway_ntd from "./colorway_ntd.json";
+import colorway_olive_r2 from "./colorway_olive_r2.json";
+import colorway_oni from "./colorway_oni.json";
+import colorway_orange_boi from "./colorway_orange_boi.json";
 
 const COLORWAYS = {
   //APPEND
@@ -356,6 +409,58 @@ const COLORWAYS = {
   hinokoku: colorway_hinokoku,
   honey: colorway_honey,
   houhai: colorway_houhai,
+  hooty: colorway_hooty,
+  honor_light: colorway_honor_light,
+  honor_dark: colorway_honor_dark,
+  // 7/30
+  iceberg: colorway_iceberg,
+  iconographic: colorway_iconographic,
+  indigo: colorway_indigo,
+  infernal: colorway_infernal,
+  inukuma: colorway_inukuma,
+  ishtar: colorway_ishtar,
+  jags: colorway_jags,
+  jelly_delights: colorway_jelly_delights,
+  jis: colorway_jis,
+  kitsune: colorway_kitsune,
+  kouhai: colorway_kouhai,
+  lavender: colorway_lavender,
+  lazurite: colorway_lazurite,
+  liftoff: colorway_liftoff,
+  lilac_on_black: colorway_lilac_on_black,
+  lux: colorway_lux,
+  lychee: colorway_lychee,
+  maestro: colorway_maestro,
+  manta: colorway_manta,
+  marmoreal: colorway_marmoreal,
+  maroon: colorway_maroon,
+  masterpiece: colorway_masterpiece,
+  matcha_mocha: colorway_matcha_mocha,
+  mercury: colorway_mercury,
+  mika: colorway_mika,
+  moai: colorway_moai,
+  modern_ink: colorway_modern_ink,
+  modern_japanese_desko: colorway_modern_japanese_desko,
+  modern_materials: colorway_modern_materials,
+  momo_yume: colorway_momo_yume,
+  monarch: colorway_monarch,
+  monochrome_r2: colorway_monochrome_r2,
+  monokai_material: colorway_monokai_material,
+  moomin: colorway_moomin,
+  moonlight: colorway_moonlight,
+  mudbeam: colorway_mudbeam,
+  muted_retro: colorway_muted_retro,
+  nerve: colorway_nerve,
+  nightlife: colorway_nightlife,
+  nightshade: colorway_nightshade,
+  nimbus: colorway_nimbus,
+  noel: colorway_noel,
+  norse: colorway_norse,
+  november_fog: colorway_november_fog,
+  ntd: colorway_ntd,
+  olive_r2: colorway_olive_r2,
+  oni: colorway_oni,
+  orange_boi: colorway_orange_boi,
 };
 
 export default COLORWAYS;

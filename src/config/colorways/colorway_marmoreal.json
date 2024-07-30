@@ -1,0 +1,29 @@
+{
+    "id": "marmoreal",
+    "label": "Marmoreal",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#146863",
+      "color": "#EAE2D0"
+     },
+     "mods": {
+      "background": "#EAE2D0",
+      "color": "#146863"
+     },
+     "accent": {
+      "background": "#AD5D4A",
+      "color": "#EAE2D0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

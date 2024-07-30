@@ -1,0 +1,29 @@
+{
+    "id": "muted_retro",
+    "label": "Muted Retro",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D1D7D3",
+      "color": "#171718"
+     },
+     "mods": {
+      "background": "#A9A9A3",
+      "color": "#171718"
+     },
+     "accent": {
+      "background": "#A3BFD0",
+      "color": "#171718"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

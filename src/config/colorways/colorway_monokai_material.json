@@ -1,0 +1,54 @@
+{
+    "id": "monokai_material",
+    "label": "Monokai Material",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#32393F",
+      "color": "#9FA4A9"
+     },
+     "mods": {
+      "background": "#32393F",
+      "color": "#68DAF2"
+     },
+     "accent": {
+      "background": "#32393F",
+      "color": "#F63876"
+     },
+     "accent2": {
+      "background": "#32393F",
+      "color": "#AF8CF5"
+     },
+     "accent3": {
+      "background": "#32393F",
+      "color": "#AEE939"
+     },
+     "accent4": {
+      "background": "#32393F",
+      "color": "#F89734"
+     }
+    },
+    "override": {
+        "KC_ESC": "accent",
+        "KC_GESC": "accent",
+        "KC_LGUI": "accent",
+        "KC_RGUI": "accent",
+        "KC_BSPC": "accent2",
+        "KC_TAB": "accent2",
+        "KC_PSCR": "base",
+        "KC_SLCK": "base",
+        "KC_PAUS": "base",
+        "KC_PGUP": "base",
+        "KC_HOME": "base",
+        "KC_INS": "base",
+        "KC_DEL": "base",
+        "KC_END": "base",
+        "KC_PGDN": "base",
+        "KC_NLCK": "accent",
+        "KC_CAPS": "accent3",
+        "KC_ENT": "accent3",
+        "KC_PENT": "accent3",
+        "KC_LSFT": "accent4",
+        "KC_RSFT": "accent4"
+    }
+   }

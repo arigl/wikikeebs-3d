@@ -1,0 +1,29 @@
+{
+    "id": "iconographic",
+    "label": "Iconographic",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F67599",
+      "color": "#6CBEB2"
+     },
+     "mods": {
+      "background": "#838280",
+      "color": "#6CBEB2"
+     },
+     "accent": {
+      "background": "#6CBEB2",
+      "color": "#F67599"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

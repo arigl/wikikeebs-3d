@@ -1,0 +1,29 @@
+{
+    "id": "maestro",
+    "label": "Maestro",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EDE2CF",
+      "color": "#000000"
+     },
+     "mods": {
+      "background": "#000000",
+      "color": "#EDE2CF"
+     },
+     "accent": {
+      "background": "#000000",
+      "color": "#EDE2CF"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

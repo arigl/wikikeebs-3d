@@ -1,0 +1,22 @@
+{
+    "id": "klassiker",
+    "label": "Klassiker",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C0B8AB",
+      "color": "#2B2A2B"
+     },
+     "mods": {
+      "background": "#C0B8AB",
+      "color": "#2B2A2B"
+     },
+     "accent": {
+      "background": "#C0B8AB",
+      "color": "#2B2A2B"
+     }
+    },
+    "override": {
+ 
+    }
+   }

@@ -1,0 +1,37 @@
+{
+    "id": "nightlife",
+    "label": "Nightlife",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#2E3C49",
+      "color": "#5E74BD"
+     },
+     "mods": {
+      "background": "#2E3C49",
+      "color": "#5E74BD"
+     },
+     "accent": {
+      "background": "#5C2695",
+      "color": "#F178B2"
+     },
+     "accent2": {
+        "background": "#5C2695",
+        "color": "#73F27E"
+       },
+     "accent3": {
+        "background": "#5C2695",
+        "color": "#91F3F0"
+       }
+    },
+    "override": {
+        "KC_BSPC": "accent",
+        "KC_CAPS": "accent",
+        "KC_ENT": "accent2",
+        "KC_LALT": "accent2",
+        "KC_PENT": "accent2",
+        "KC_LSFT": "accent3",
+        "KC_RSFT": "accent3",
+        "KC_RALT": "accent"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "jelly_delights",
+    "label": "Jelly Delights",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CF989D",
+      "color": "#C23D47"
+     },
+     "mods": {
+      "background": "#CF989D",
+      "color": "#C23D47"
+     },
+     "accent": {
+      "background": "#C23D47",
+      "color": "#F0EBE2"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

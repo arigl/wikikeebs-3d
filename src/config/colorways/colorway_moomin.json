@@ -1,0 +1,29 @@
+{
+    "id": "moomin",
+    "label": "Moomin",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#DAE3E7",
+      "color": "#767675"
+     },
+     "mods": {
+      "background": "#E7E3E7",
+      "color": "#767675"
+     },
+     "accent": {
+      "background": "#EAE4D8",
+      "color": "#767675"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

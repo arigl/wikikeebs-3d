@@ -1,0 +1,29 @@
+{
+    "id": "nightlight",
+    "label": "Nightlight",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#ACCADC",
+      "color": "#1D5578"
+     },
+     "mods": {
+      "background": "#1D5578",
+      "color": "#ACCADC"
+     },
+     "accent": {
+      "background": "#5BBFCF",
+      "color": "#1D5578"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

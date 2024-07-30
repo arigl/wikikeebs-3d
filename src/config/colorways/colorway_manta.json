@@ -1,0 +1,29 @@
+{
+    "id": "manta",
+    "label": "Manta",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#7596A7",
+      "color": "#E2E3E1"
+     },
+     "mods": {
+      "background": "#435E73",
+      "color": "#E2E3E1"
+     },
+     "accent": {
+      "background": "#E2E3E1",
+      "color": "#7596A7"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

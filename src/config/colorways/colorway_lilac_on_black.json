@@ -1,0 +1,29 @@
+{
+    "id": "lilac_on_black",
+    "label": "Lilac on Black",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#121213",
+      "color": "#CB98DF"
+     },
+     "mods": {
+      "background": "#121213",
+      "color": "#CB98DF"
+     },
+     "accent": {
+      "background": "#CB98DF",
+      "color": "#121213"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

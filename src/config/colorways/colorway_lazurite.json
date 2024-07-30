@@ -1,0 +1,29 @@
+{
+    "id": "lazurite",
+    "label": "Lazurite",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#0F3B84",
+      "color": "#C9C9CB"
+     },
+     "mods": {
+      "background": "#C9C9CB",
+      "color": "#0F3B84"
+     },
+     "accent": {
+      "background": "#B59C66",
+      "color": "#0F3B84"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

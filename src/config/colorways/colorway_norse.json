@@ -1,0 +1,29 @@
+{
+    "id": "norse",
+    "label": "Norse",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#454545",
+      "color": "#C8C8B9"
+     },
+     "mods": {
+      "background": "#102127",
+      "color": "#C8C8B9"
+     },
+     "accent": {
+      "background": "#C8C8B9",
+      "color": "#102127"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "indigo",
+    "label": "Indigo",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#496887",
+      "color": "#DBD8D3"
+     },
+     "mods": {
+      "background": "#223144",
+      "color": "#DBD8D3"
+     },
+     "accent": {
+      "background": "#6A8399",
+      "color": "#DBD8D3"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

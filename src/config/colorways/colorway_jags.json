@@ -1,0 +1,29 @@
+{
+    "id": "jags",
+    "label": "Jags",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C2CAD1",
+      "color": "#F3F3F2"
+     },
+     "mods": {
+      "background": "#8A9297",
+      "color": "#F3F3F2"
+     },
+     "accent": {
+      "background": "#5AA099",
+      "color": "#F3F3F2"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

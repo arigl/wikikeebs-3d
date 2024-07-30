@@ -1,0 +1,29 @@
+{
+    "id": "mecha_01",
+    "label": "Mecha-01",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#542590",
+      "color": "#45CD2D"
+     },
+     "mods": {
+      "background": "#202020",
+      "color": "#45CD2D"
+     },
+     "accent": {
+      "background": "#45CD2D",
+      "color": "#542590"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "kouhai",
+    "label": "Kouhai",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CBC8C1",
+      "color": "#6A5A95"
+     },
+     "mods": {
+      "background": "#343436",
+      "color": "#6A5A95"
+     },
+     "accent": {
+      "background": "#BC939B",
+      "color": "#6A5A95"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

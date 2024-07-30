@@ -1,0 +1,29 @@
+{
+    "id": "lux",
+    "label": "Lux",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#1A1A1A",
+      "color": "#C39B2A"
+     },
+     "mods": {
+      "background": "#1A1A1A",
+      "color": "#C39B2A"
+     },
+     "accent": {
+      "background": "#C39B2A",
+      "color": "#1A1A1A"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

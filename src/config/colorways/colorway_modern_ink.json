@@ -1,0 +1,29 @@
+{
+    "id": "modern_ink",
+    "label": "Modern Ink",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EDEDF3",
+      "color": "#0E0F12"
+     },
+     "mods": {
+      "background": "#EDEDF3",
+      "color": "#0E0F12"
+     },
+     "accent": {
+      "background": "#D0302A",
+      "color": "#EDEDF3"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

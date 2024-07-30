@@ -1,0 +1,29 @@
+{
+    "id": "ishtar",
+    "label": "Ishtar",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E6D2B5",
+      "color": "#BB1E10"
+     },
+     "mods": {
+      "background": "#2A292A",
+      "color": "#BB1E10"
+     },
+     "accent": {
+      "background": "#F6A950",
+      "color": "#BB1E10"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

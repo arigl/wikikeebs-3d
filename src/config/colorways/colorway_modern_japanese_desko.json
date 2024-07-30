@@ -1,0 +1,26 @@
+{
+    "id": "modern_japanese_desko",
+    "label": "Modern Japanese Desko",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#FFFFFF",
+      "color": "#151515"
+     },
+     "mods": {
+      "background": "#CACACA",
+      "color": "#151515"
+     },
+     "accent": {
+      "background": "#AADB20",
+      "color": "#151515"
+     }
+    },
+    "override": {
+     "KC_LSFT": "accent",
+     "KC_RSFT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_SPC":"base"
+    }
+   }

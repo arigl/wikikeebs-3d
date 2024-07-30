@@ -1,0 +1,29 @@
+{
+    "id": "momo_yume",
+    "label": "Momo Yume",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A9AAA9",
+      "color": "#707982"
+     },
+     "mods": {
+      "background": "#707982",
+      "color": "#B1A778"
+     },
+     "accent": {
+      "background": "#B3938C",
+      "color": "#A9AAA9"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

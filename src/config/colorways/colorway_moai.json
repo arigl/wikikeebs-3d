@@ -1,0 +1,29 @@
+{
+    "id": "moai",
+    "label": "Moai",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#55544F",
+      "color": "#7B7C7A"
+     },
+     "mods": {
+      "background": "#232122",
+      "color": "#7B7C7A"
+     },
+     "accent": {
+      "background": "#C29017",
+      "color": "#232122"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

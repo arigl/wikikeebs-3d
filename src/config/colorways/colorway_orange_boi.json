@@ -1,0 +1,29 @@
+{
+    "id": "orange_boi",
+    "label": "Orange Boi",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7DDD0",
+      "color": "#E7708C"
+     },
+     "mods": {
+      "background": "#ED9178",
+      "color": "#F7DDD0"
+     },
+     "accent": {
+      "background": "#E7708C",
+      "color": "#F7DDD0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

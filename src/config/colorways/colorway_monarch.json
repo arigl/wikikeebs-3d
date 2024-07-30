@@ -1,0 +1,29 @@
+{
+    "id": "monarch",
+    "label": "Monarch",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#70608D",
+      "color": "#C8AC24"
+     },
+     "mods": {
+      "background": "#433B60",
+      "color": "#AC5E86"
+     },
+     "accent": {
+      "background": "#C8AC24",
+      "color": "#433B60"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

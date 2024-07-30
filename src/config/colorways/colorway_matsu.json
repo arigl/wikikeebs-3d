@@ -1,0 +1,29 @@
+{
+    "id": "matsu",
+    "label": "Matsu",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E3DDD4",
+      "color": "#464748"
+     },
+     "mods": {
+      "background": "#464748",
+      "color": "#E3DDD4"
+     },
+     "accent": {
+      "background": "#E5A22B",
+      "color": "#464748"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

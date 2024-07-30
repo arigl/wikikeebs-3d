@@ -1,0 +1,29 @@
+{
+    "id": "lychee",
+    "label": "Lychee",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F5F2EE",
+      "color": "#CC4853"
+     },
+     "mods": {
+      "background": "#CC4853",
+      "color": "#F5F2EE"
+     },
+     "accent": {
+      "background": "#5F191F",
+      "color": "#F5F2EE"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

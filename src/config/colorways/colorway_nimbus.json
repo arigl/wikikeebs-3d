@@ -1,0 +1,29 @@
+{
+    "id": "nimbus",
+    "label": "Nimbus",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C5D4D9",
+      "color": "#414140"
+     },
+     "mods": {
+      "background": "#D5D5D3",
+      "color": "#414140"
+     },
+     "accent": {
+      "background": "#414140",
+      "color": "#D5D5D3"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

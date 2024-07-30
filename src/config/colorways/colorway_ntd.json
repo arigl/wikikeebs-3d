@@ -1,0 +1,29 @@
+{
+    "id": "ntd",
+    "label": "NTD",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#B2B4B2",
+      "color": "#512179"
+     },
+     "mods": {
+      "background": "#474A51",
+      "color": "#512179"
+     },
+     "accent": {
+      "background": "#512179",
+      "color": "#A7A4E0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

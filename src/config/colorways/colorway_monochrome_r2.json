@@ -1,0 +1,29 @@
+{
+    "id": "monochrome_r2",
+    "label": "Monochrome R2",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#FFFFFF",
+      "color": "#000000"
+     },
+     "mods": {
+      "background": "#000000",
+      "color": "#FFFFFF"
+     },
+     "accent": {
+      "background": "#E01C1A",
+      "color": "#FFFFFF"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

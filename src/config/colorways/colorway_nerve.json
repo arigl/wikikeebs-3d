@@ -1,0 +1,29 @@
+{
+    "id": "nerve",
+    "label": "Nerve",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#B3B5B7",
+      "color": "#5C2695"
+     },
+     "mods": {
+      "background": "#626463",
+      "color": "#E3F106"
+     },
+     "accent": {
+      "background": "#5C2695",
+      "color": "#E3F106"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

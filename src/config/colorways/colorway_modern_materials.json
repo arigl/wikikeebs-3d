@@ -1,0 +1,29 @@
+{
+    "id": "modern_materials",
+    "label": "Modern Materials",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C7C9BF",
+      "color": "#F8F8F5"
+     },
+     "mods": {
+      "background": "#C7C9BF",
+      "color": "#F8F8F5"
+     },
+     "accent": {
+      "background": "#C7C9BF",
+      "color": "#F8F8F5"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }
