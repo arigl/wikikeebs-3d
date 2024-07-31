@@ -232,6 +232,10 @@ import colorway_olive_r2 from "./colorway_olive_r2.json";
 import colorway_oni from "./colorway_oni.json";
 import colorway_orange_boi from "./colorway_orange_boi.json";
 
+// fixes
+import colorway_klassiker from "./colorway_klassiker.json";
+import colorway_nightlight from "./colorway_nightlight.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -461,6 +465,8 @@ const COLORWAYS = {
   olive_r2: colorway_olive_r2,
   oni: colorway_oni,
   orange_boi: colorway_orange_boi,
+  klassiker: colorway_klassiker,
+  nightlight: colorway_nightlight,
 };
 
 export default COLORWAYS;
