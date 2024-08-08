@@ -1,19 +1,19 @@
 {
-    "id": "reforged",
-    "label": "ReForged",
+    "id": "purpleish",
+    "label": "Purple-ish",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#A7522B",
-      "color": "#D1C9BC"
+      "background": "#A1A4BA",
+      "color": "#8795CE"
      },
      "mods": {
-      "background": "#2A3740",
-      "color": "#D1C9BC"
+      "background": "#8795CE",
+      "color": "#A1A4BA"
      },
      "accent": {
-      "background": "#D1C9BC",
-      "color": "#A7522B"
+      "background": "#CDD47A",
+      "color": "#A1A4BA"
      }
     },
     "override": {

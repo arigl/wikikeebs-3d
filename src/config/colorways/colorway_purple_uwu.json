@@ -1,19 +1,19 @@
 {
-    "id": "reforged",
-    "label": "ReForged",
+    "id": "purple_uwu",
+    "label": "Purple UWU",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#A7522B",
-      "color": "#D1C9BC"
+      "background": "#BFC1C9",
+      "color": "#958EAD"
      },
      "mods": {
-      "background": "#2A3740",
-      "color": "#D1C9BC"
+      "background": "#958EAD",
+      "color": "#BFC1C9"
      },
      "accent": {
-      "background": "#D1C9BC",
-      "color": "#A7522B"
+      "background": "#958EAD",
+      "color": "#958EAD"
      }
     },
     "override": {

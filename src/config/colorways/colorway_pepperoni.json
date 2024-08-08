@@ -1,0 +1,36 @@
+{
+    "id": "pepperoni",
+    "label": "Pepperoni",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F1ECE1",
+      "color": "#BA8F4C"
+     },
+     "mods": {
+      "background": "#D02F1C",
+      "color": "#F1ECE1"
+     },
+     "accent": {
+      "background": "#BA8F4C",
+      "color": "#F1ECE1"
+     }
+    },
+    "override": {
+     "KC_ESC": "mods",
+     "KC_GESC": "mods",
+     "KC_F1": "accent",
+     "KC_F2": "accent",
+     "KC_F3": "accent",
+     "KC_F4": "accent",
+     "KC_F5": "accent",
+     "KC_F6": "accent",
+     "KC_F7": "accent",
+     "KC_F8": "accent",
+     "KC_F9": "accent",
+     "KC_F10": "accent",
+     "KC_F11": "accent",
+     "KC_F12": "accent",
+     "KC_SPC":"base"
+    }
+   }

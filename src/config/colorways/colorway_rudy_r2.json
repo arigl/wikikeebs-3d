@@ -1,19 +1,19 @@
 {
-    "id": "reforged",
-    "label": "ReForged",
+    "id": "rudy_r2",
+    "label": "Rudy R2",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#A7522B",
-      "color": "#D1C9BC"
+      "background": "#E1DBD1",
+      "color": "#0D3453"
      },
      "mods": {
-      "background": "#2A3740",
-      "color": "#D1C9BC"
+      "background": "#0D3453",
+      "color": "#E1DBD1"
      },
      "accent": {
-      "background": "#D1C9BC",
-      "color": "#A7522B"
+      "background": "#C6A664",
+      "color": "#0D3453"
      }
     },
     "override": {

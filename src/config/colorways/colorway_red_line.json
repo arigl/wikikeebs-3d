@@ -1,19 +1,19 @@
 {
-    "id": "reforged",
-    "label": "ReForged",
+    "id": "red_line",
+    "label": "Red Line",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#A7522B",
-      "color": "#D1C9BC"
+      "background": "#273339",
+      "color": "#52666E"
      },
      "mods": {
-      "background": "#2A3740",
-      "color": "#D1C9BC"
+      "background": "#141E22",
+      "color": "#BC2D38"
      },
      "accent": {
-      "background": "#D1C9BC",
-      "color": "#A7522B"
+      "background": "#BC2D38",
+      "color": "#141E22"
      }
     },
     "override": {

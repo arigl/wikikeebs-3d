@@ -236,6 +236,35 @@ import colorway_orange_boi from "./colorway_orange_boi.json";
 import colorway_klassiker from "./colorway_klassiker.json";
 import colorway_nightlight from "./colorway_nightlight.json";
 
+// 8/8/2024
+import colorway_pride from "./colorway_pride.json";
+import colorway_pharaoh from "./colorway_pharaoh.json";
+import colorway_purple_uwu from "./colorway_purple_uwu.json";
+import colorway_perestroika from "./colorway_perestroika.json";
+import colorway_panda from "./colorway_panda.json";
+import colorway_posh from "./colorway_posh.json";
+import colorway_purpleish from "./colorway_purple-ish.json";
+import colorway_patisserie from "./colorway_patisserie.json";
+import colorway_pacific from "./colorway_pacific.json";
+import colorway_pepperoni from "./colorway_pepperoni.json";
+import colorway_purple_night from "./colorway_purple_night.json";
+import colorway_parcel from "./colorway_parcel.json";
+import colorway_panels from "./colorway_panels.json";
+import colorway_peach_blossom_r2 from "./colorway_peach_blossom_r2.json";
+import colorway_poker from "./colorway_poker.json";
+import colorway_pink_on_navy from "./colorway_pink_on_navy.json";
+import colorway_phantom_r2 from "./colorway_phantom_r2.json";
+import colorway_retrowave from "./colorway_retrowave.json";
+import colorway_red_devils from "./colorway_red_devils.json";
+import colorway_regal from "./colorway_regal.json";
+import colorway_retrotrip from "./colorway_retrotrip.json";
+import colorway_red_dragon from "./colorway_red_dragon.json";
+import colorway_red_line from "./colorway_red_line.json";
+import colorway_rouge_r2 from "./colorway_rouge_r2.json";
+import colorway_retrocast from "./colorway_retrocast.json";
+import colorway_rudy_r2 from "./colorway_rudy_r2.json";
+import colorway_rouge from "./colorway_rouge.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -467,6 +496,34 @@ const COLORWAYS = {
   orange_boi: colorway_orange_boi,
   klassiker: colorway_klassiker,
   nightlight: colorway_nightlight,
+  // 8-8
+  pride: colorway_pride,
+  pharaoh: colorway_pharaoh,
+  purple_uwu: colorway_purple_uwu,
+  perestroika: colorway_perestroika,
+  panda: colorway_panda,
+  posh: colorway_posh,
+  purpleish: colorway_purpleish,
+  patisserie: colorway_patisserie,
+  pacific: colorway_pacific,
+  pepperoni: colorway_pepperoni,
+  purple_night: colorway_purple_night,
+  parcel: colorway_parcel,
+  panels: colorway_panels,
+  peach_blossom_r2: colorway_peach_blossom_r2,
+  poker: colorway_poker,
+  pink_on_navy: colorway_pink_on_navy,
+  phantom_r2: colorway_phantom_r2,
+  retrowave: colorway_retrowave,
+  red_devils: colorway_red_devils,
+  regal: colorway_regal,
+  retrotrip: colorway_retrotrip,
+  red_dragon: colorway_red_dragon,
+  red_line: colorway_red_line,
+  rouge_r2: colorway_rouge_r2,
+  retrocast: colorway_retrocast,
+  rudy_r2: colorway_rudy_r2,
+  rouge: colorway_rouge,
 };
 
 export default COLORWAYS;

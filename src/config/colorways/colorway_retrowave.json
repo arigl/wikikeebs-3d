@@ -1,19 +1,19 @@
 {
-    "id": "reforged",
-    "label": "ReForged",
+    "id": "retrowave",
+    "label": "Retrowave",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#A7522B",
-      "color": "#D1C9BC"
+      "background": "#41307C",
+      "color": "#CC3EB8"
      },
      "mods": {
-      "background": "#2A3740",
-      "color": "#D1C9BC"
+      "background": "#CC3EB8",
+      "color": "#41307C"
      },
      "accent": {
-      "background": "#D1C9BC",
-      "color": "#A7522B"
+      "background": "#D7D108",
+      "color": "#41307C"
      }
     },
     "override": {

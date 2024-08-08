@@ -1,0 +1,24 @@
+{
+    "id": "peach_blossom_r2",
+    "label": "Peach Blossom R2",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#FCAFC0",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#FCAFC0",
+      "color": "#F7F2EA"
+     },
+     "accent": {
+      "background": "#F7F2EA",
+      "color": "#FCAFC0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent"
+    }
+   }

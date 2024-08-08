@@ -1,0 +1,22 @@
+{
+    "id": "rouge",
+    "label": "Rouge",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#2E2C3B",
+      "color": "#926B7D"
+     },
+     "mods": {
+      "background": "#2E2C3B",
+      "color": "#926B7D"
+     },
+     "accent": {
+      "background": "#2E2C3B",
+      "color": "#926B7D"
+     }
+    },
+    "override": {
+  
+    }
+   }

@@ -1,0 +1,22 @@
+{
+    "id": "perestroika",
+    "label": "Perestroika",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#59191F",
+      "color": "#E9E0D2"
+     },
+     "mods": {
+      "background": "#59191F",
+      "color": "#E9E0D2"
+     },
+     "accent": {
+      "background": "#59191F",
+      "color": "#E9E0D2"
+     }
+    },
+    "override": {
+
+    }
+   }

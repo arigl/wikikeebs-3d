@@ -1,0 +1,24 @@
+{
+    "id": "regal",
+    "label": "Regal",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#302B3F",
+      "color": "#F1F1EF"
+     },
+     "mods": {
+      "background": "#302B3F",
+      "color": "#F1F1EF"
+     },
+     "accent": {
+      "background": "#F1F1EF",
+      "color": "#302B3F"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent"
+    }
+   }
