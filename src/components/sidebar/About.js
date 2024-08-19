@@ -5,7 +5,7 @@ import { ReactComponent as GithubIcon } from "../../assets/icons/icon_github.svg
 
 export default function About() {
   return (
-    <CollapsibleSection title="About" open={true}>
+    <CollapsibleSection title="About" open={false}>
       <div className={styles.about}>
         <p>
           <a

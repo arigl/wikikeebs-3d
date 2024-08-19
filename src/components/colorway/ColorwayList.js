@@ -64,35 +64,37 @@ export default function ColorwayList(props) {
             <span>Add New Colorway</span>
           </Button> */}
         </div>
-        {customColorwayTiles.length ? (
-          <div aria-hidden="true" className={styles.listLabel}>
-            <span>My Colorways</span>
-          </div>
-        ) : null}
-        <ul className={styles.list} aria-label="my custom colorways list">
-          {customColorwayTiles}
-        </ul>
-        {customColorwayTiles.length ? (
-          <div aria-hidden="true" className={styles.listLabel}>
-            <span>Community Colorways</span>
-          </div>
-        ) : null}
-        {colorwayTiles.length ? (
-          <ul className={styles.list} aria-label="community colorways list">
-            {colorwayTiles}
+        <div className={styles.listContainer}>
+          {customColorwayTiles.length ? (
+            <div aria-hidden="true" className={styles.listLabel}>
+              <span>My Colorways</span>
+            </div>
+          ) : null}
+          <ul className={styles.list} aria-label="my custom colorways list">
+            {customColorwayTiles}
           </ul>
-        ) : (
-          <p
-            style={{
-              fontSize: "16px",
-              padding: "1em",
-              margin: "0",
-              width: "100%",
-            }}
-          >
-            No matching colorways
-          </p>
-        )}{" "}
+          {customColorwayTiles.length ? (
+            <div aria-hidden="true" className={styles.listLabel}>
+              <span>Community Colorways</span>
+            </div>
+          ) : null}
+          {colorwayTiles.length ? (
+            <ul className={styles.list} aria-label="community colorways list">
+              {colorwayTiles}
+            </ul>
+          ) : (
+            <p
+              style={{
+                fontSize: "16px",
+                padding: "1em",
+                margin: "0",
+                width: "100%",
+              }}
+            >
+              No matching colorways
+            </p>
+          )}{" "}
+        </div>
       </div>
     </CollapsibleSection>
   );
