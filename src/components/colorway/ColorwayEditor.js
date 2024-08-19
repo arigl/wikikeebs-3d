@@ -105,17 +105,49 @@ export default function ColorwayEditor() {
     }
   };
 
+  // const removeSwatch = (name) => {
+  //   if (localColorway && localColorway.swatches[name]) {
+  //     let updatedColorway = { ...localColorway };
+  //     Object.keys(updatedColorway.override).forEach((key) => {
+  //       if (updatedColorway.override[key] === name)
+  //         delete updatedColorway.override[key];
+  //     });
+  //     delete updatedColorway.swatches[name];
+  //     dispatch(updateCustomColorway(updatedColorway));
+  //     console.log("Dispatched updateCustomColorway:", updatedColorway);
+  //     setLocalColorway(updatedColorway);
+  //     let event = new CustomEvent("force_key_material_update");
+  //     document.dispatchEvent(event);
+  //   }
+  // };
+
   const removeSwatch = (name) => {
     if (localColorway && localColorway.swatches[name]) {
+      // Create a shallow copy of the colorway object
       let updatedColorway = { ...localColorway };
-      Object.keys(updatedColorway.override).forEach((key) => {
-        if (updatedColorway.override[key] === name)
-          delete updatedColorway.override[key];
-      });
+
+      // Create a shallow copy of the swatches object
+      updatedColorway.swatches = { ...updatedColorway.swatches };
+
+      // Remove the specified swatch
       delete updatedColorway.swatches[name];
+
+      // Remove references in the override object
+      updatedColorway.override = { ...updatedColorway.override };
+      Object.keys(updatedColorway.override).forEach((key) => {
+        if (updatedColorway.override[key] === name) {
+          delete updatedColorway.override[key];
+        }
+      });
+
+      // Dispatch the updated colorway to the store
       dispatch(updateCustomColorway(updatedColorway));
       console.log("Dispatched updateCustomColorway:", updatedColorway);
+
+      // Update the local state
       setLocalColorway(updatedColorway);
+
+      // Dispatch an event to update key materials
       let event = new CustomEvent("force_key_material_update");
       document.dispatchEvent(event);
     }
