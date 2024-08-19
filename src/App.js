@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useSelector } from "react-redux";
 import ColorUtil from "./util/color";
 import Home from "./pages/Home";
 import "./App.scss";
+import ReactGA from "react-ga4"; // Import Google Analytics
 
 import * as colorwaysActions from "./store/slices/colorways";
 import * as settingsActions from "./store/slices/settings";
@@ -49,6 +50,12 @@ export default function App() {
     "--compliment": ColorUtil.getUiCompliment(colorway_id),
     "--accent-text": "#000000",
   };
+
+  useEffect(() => {
+    // Initialize Google Analytics
+    ReactGA.initialize("G-94GLH930Q6");
+    ReactGA.send("pageview");
+  }, []);
 
   return (
     <div className="App" style={highContrast ? uiColorsHC : uiColors}>
