@@ -1,0 +1,29 @@
+{
+    "id": "symbiote",
+    "label": "Symbiote",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#B79FBB",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#5F4661",
+      "color": "#F1A3B6"
+     },
+     "accent": {
+      "background": "#5F4661",
+      "color": "#F1A3B6"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

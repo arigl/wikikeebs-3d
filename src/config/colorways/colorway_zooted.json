@@ -1,0 +1,29 @@
+{
+    "id": "zooted",
+    "label": "Zooted",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A8C1A1",
+      "color": "#2A3E2F"
+     },
+     "mods": {
+      "background": "#7F9979",
+      "color": "#2A3E2F"
+     },
+     "accent": {
+      "background": "#6F7187",
+      "color": "#2A3E2F"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

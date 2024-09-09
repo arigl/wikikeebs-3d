@@ -1,0 +1,29 @@
+{
+    "id": "stargaze",
+    "label": "Stargaze",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#001932",
+      "color": "#CEBD9A"
+     },
+     "mods": {
+      "background": "#001932",
+      "color": "#CEBD9A"
+     },
+     "accent": {
+      "background": "#CEBD9A",
+      "color": "#001932"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

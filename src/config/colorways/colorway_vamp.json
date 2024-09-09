@@ -1,0 +1,29 @@
+{
+    "id": "vamp",
+    "label": "Vamp",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E5E9EE",
+      "color": "#CC211C"
+     },
+     "mods": {
+      "background": "#2E415C",
+      "color": "#E5E9EE"
+     },
+     "accent": {
+      "background": "#2E415C",
+      "color": "#E5E9EE"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

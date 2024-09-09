@@ -1,0 +1,29 @@
+{
+    "id": "terror",
+    "label": "Terror",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#5A328A",
+      "color": "#3B7E17"
+     },
+     "mods": {
+      "background": "#380F56",
+      "color": "#3B7E17"
+     },
+     "accent": {
+      "background": "#3B7E17",
+      "color": "#380F56"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "soyamilk",
+    "label": "Soyamilk",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7F2EA",
+      "color": "#507CA02"
+     },
+     "mods": {
+      "background": "#E6D2B5",
+      "color": "#507CA0"
+     },
+     "accent": {
+      "background": "#507CA0",
+      "color": "#E6D2B5"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

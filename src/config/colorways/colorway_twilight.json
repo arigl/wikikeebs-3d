@@ -1,0 +1,29 @@
+{
+    "id": "twilight",
+    "label": "Twilight",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C66191",
+      "color": "#5F697F"
+     },
+     "mods": {
+      "background": "#5F697F",
+      "color": "#C66191"
+     },
+     "accent": {
+      "background": "#539780",
+      "color": "#C66191"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

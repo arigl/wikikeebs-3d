@@ -1,0 +1,29 @@
+{
+    "id": "teradrive",
+    "label": "TeraDrive",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#212122",
+      "color": "#E1DBD1"
+     },
+     "mods": {
+      "background": "#585C56",
+      "color": "#E1DBD1"
+     },
+     "accent": {
+      "background": "#585C56",
+      "color": "#E1DBD1"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

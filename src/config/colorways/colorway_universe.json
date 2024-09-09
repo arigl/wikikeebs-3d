@@ -1,0 +1,29 @@
+{
+    "id": "universe",
+    "label": "Universe",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#333F48",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#07272D",
+      "color": "#F7F2EA"
+     },
+     "accent": {
+      "background": "#FFC27B",
+      "color": "#07272D"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

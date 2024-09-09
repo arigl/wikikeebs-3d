@@ -1,0 +1,29 @@
+{
+    "id": "tuzi",
+    "label": "Tuzi",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#D1CFD6",
+      "color": "#9692BF"
+     },
+     "mods": {
+      "background": "#9692BF",
+      "color": "#D1CFD6"
+     },
+     "accent": {
+      "background": "#703860",
+      "color": "#D1CFD6"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

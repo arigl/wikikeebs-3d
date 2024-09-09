@@ -1,0 +1,29 @@
+{
+    "id": "tako",
+    "label": "Tako",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7F2EA",
+      "color": "#463F67"
+     },
+     "mods": {
+      "background": "#463F67",
+      "color": "#FFB765"
+     },
+     "accent": {
+      "background": "#FFB765",
+      "color": "#463F67"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

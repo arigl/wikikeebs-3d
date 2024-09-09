@@ -1,0 +1,29 @@
+{
+    "id": "underworld",
+    "label": "Underworld",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#171718",
+      "color": "#B81B0E"
+     },
+     "mods": {
+      "background": "#171718",
+      "color": "#B81B0E"
+     },
+     "accent": {
+      "background": "#A08F65",
+      "color": "#171718"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

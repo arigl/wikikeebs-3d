@@ -1,0 +1,54 @@
+{
+    "id": "serenity",
+    "label": "Serenity",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#665D94",
+      "color": "#F3EAEE"
+     },
+     "mods": {
+      "background": "#544B8C",
+      "color": "#F3EAEE"
+     },
+     "accent": {
+      "background": "#544B8C",
+      "color": "#D392A7"
+     },
+     "accent2": {
+      "background": "#544B8C",
+      "color": "#7DB5C0"
+     },
+     "accent3": {
+      "background": "#544B8C",
+      "color": "#ADB97B"
+     },
+     "accent4": {
+      "background": "#544B8C",
+      "color": "#9486AF"
+     },
+     "accent5": {
+      "background": "#544B8C",
+      "color": "#BD9B7A"
+     }
+    },
+    "override": {
+        "KC_F5": "mods",
+        "KC_F6": "mods",
+        "KC_F7": "mods",
+        "KC_F8": "mods",
+        "KC_BSPC": "accent",
+        "KC_TAB": "accent",
+        "KC_ENT": "accent2",
+        "KC_CAPS": "accent2",
+        "KC_LSFT": "accent3",
+        "KC_RSFT": "accent3",
+        "KC_LCTL": "accent4",
+        "KC_RCTL": "accent4",
+        "KC_LALT": "accent2",
+        "KC_RALT": "accent2",
+        "KC_LGUI": "accent5",
+        "KC_RGUI": "accent5",
+        "KC_APP": "accent2"
+    }
+   }

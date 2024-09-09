@@ -1,0 +1,29 @@
+{
+    "id": "sunset_surfing",
+    "label": "Sunset Surfing",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#2A3245",
+      "color": "#A0462E"
+     },
+     "mods": {
+      "background": "#2A3245",
+      "color": "#A0462E"
+     },
+     "accent": {
+      "background": "#A0462E",
+      "color": "#2A3245"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

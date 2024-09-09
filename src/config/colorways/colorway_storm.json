@@ -1,0 +1,81 @@
+{
+    "id": "storm",
+    "label": "Storm",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#383E42",
+      "color": "#C5C7CA"
+     },
+     "mods": {
+      "background": "#383E42",
+      "color": "#C5C7CA"
+     },
+     "accent": {
+      "background": "#4F5358",
+      "color": "#C5C7CA"
+     },
+     "accent2": {
+        "background": "#52595D",
+        "color": "#C5C7CA"
+       },
+    "accent3": {
+        "background": "#5B686D",
+        "color": "#C5C7CA"
+       },
+    "accent4": {
+        "background": "#7A888E",
+        "color": "#C5C7CA"
+       }
+    },
+    "override": {
+        "KC_GRV": "accent",
+        "KC_1": "accent",
+        "KC_2": "accent",
+        "KC_3": "accent",
+        "KC_4": "accent",
+        "KC_5": "accent",
+        "KC_6": "accent",
+        "KC_7": "accent",
+        "KC_8": "accent",
+        "KC_9": "accent",
+        "KC_0": "accent",
+        "KC_MINS": "accent",
+        "KC_EQL": "accent",
+        "KC_Q": "accent2",
+        "KC_W": "accent2",
+        "KC_E": "accent2",
+        "KC_R": "accent2",
+        "KC_T": "accent2",
+        "KC_Y": "accent2",
+        "KC_U": "accent2",
+        "KC_I": "accent2",
+        "KC_O": "accent2",
+        "KC_P": "accent2",
+        "KC_LBRC": "accent2",
+        "KC_RBRC": "accent2",
+        "KC_BSLS": "accent2",
+        "KC_A": "accent3",
+        "KC_S": "accent3",
+        "KC_D": "accent3",
+        "KC_F": "accent3",
+        "KC_G": "accent3",
+        "KC_H": "accent3",
+        "KC_J": "accent3",
+        "KC_K": "accent3",
+        "KC_L": "accent3",
+        "KC_SCLN": "accent3",
+        "KC_QUOT": "accent3",
+        "KC_Z": "accent4",
+        "KC_X": "accent4",
+        "KC_C": "accent4",
+        "KC_V": "accent4",
+        "KC_B": "accent4",
+        "KC_N": "accent4",
+        "KC_M": "accent4",
+        "KC_COMM": "accent4",
+        "KC_DOT": "accent4",
+        "KC_SLSH": "accent4",
+        "KC_SPC": "accent4"
+    }
+   }

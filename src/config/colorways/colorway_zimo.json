@@ -1,0 +1,29 @@
+{
+    "id": "zimo",
+    "label": "Zimo",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#EEE2D0",
+      "color": "#171718"
+     },
+     "mods": {
+      "background": "#EEE2D0",
+      "color": "#171718"
+     },
+     "accent": {
+      "background": "#00773A",
+      "color": "#EEE2D0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

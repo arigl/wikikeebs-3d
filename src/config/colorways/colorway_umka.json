@@ -1,0 +1,21 @@
+{
+    "id": "umka",
+    "label": "Umka",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E3D5B9",
+      "color": "#464746"
+     },
+     "mods": {
+      "background": "#E3D5B9",
+      "color": "#464746"
+     },
+     "accent": {
+      "background": "#E3D5B9",
+      "color": "#464746"
+     }
+    },
+    "override": {
+    }
+   }

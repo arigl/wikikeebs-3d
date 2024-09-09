@@ -1,0 +1,29 @@
+{
+    "id": "stealth",
+    "label": "Stealth",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#363D43",
+      "color": "#151619"
+     },
+     "mods": {
+      "background": "#151619",
+      "color": "#363D43"
+     },
+     "accent": {
+      "background": "#151619",
+      "color": "#E8540D"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

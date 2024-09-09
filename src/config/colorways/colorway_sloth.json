@@ -1,0 +1,29 @@
+{
+    "id": "sloth",
+    "label": "Sloth",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#C3BFB4",
+      "color": "#706959"
+     },
+     "mods": {
+      "background": "#706959",
+      "color": "#C3BFB4"
+     },
+     "accent": {
+      "background": "#675348",
+      "color": "#C3BFB4"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

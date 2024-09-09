@@ -1,0 +1,29 @@
+{
+    "id": "tenshi",
+    "label": "Tenshi",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#CED6E6",
+      "color": "#342B35"
+     },
+     "mods": {
+      "background": "#342B35",
+      "color": "#D8D2C3"
+     },
+     "accent": {
+      "background": "#D8D2C3",
+      "color": "#342B35"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

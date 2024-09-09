@@ -1,0 +1,21 @@
+{
+    "id": "shanshui",
+    "label": "Shanshui",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#171718",
+      "color": "#F7F2EA"
+     },
+     "mods": {
+      "background": "#171718",
+      "color": "#F7F2EA"
+     },
+     "accent": {
+      "background": "#171718",
+      "color": "#F7F2EA"
+     }
+    },
+    "override": {
+    }
+   }

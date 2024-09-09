@@ -1,0 +1,29 @@
+{
+    "id": "seafarer",
+    "label": "Seafarer",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F7F2EA",
+      "color": "#122B3E"
+     },
+     "mods": {
+      "background": "#F7F2EA",
+      "color": "#122B3E"
+     },
+     "accent": {
+      "background": "#122B3E",
+      "color": "#F7F2EA"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

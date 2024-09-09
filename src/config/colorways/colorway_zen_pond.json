@@ -1,0 +1,29 @@
+{
+    "id": "zen_pond",
+    "label": "Zen Pond",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#242B3E",
+      "color": "#71B9CD"
+     },
+     "mods": {
+      "background": "#242B3E",
+      "color": "#CCCCCC"
+     },
+     "accent": {
+      "background": "#71B9CD",
+      "color": "#CCCCCC"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

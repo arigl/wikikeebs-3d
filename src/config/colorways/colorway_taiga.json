@@ -1,0 +1,29 @@
+{
+    "id": "taiga",
+    "label": "Taiga",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#005042",
+      "color": "#E1DBD1"
+     },
+     "mods": {
+      "background": "#00352C",
+      "color": "#E1DBD1"
+     },
+     "accent": {
+      "background": "#00352C",
+      "color": "#E1DBD1"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

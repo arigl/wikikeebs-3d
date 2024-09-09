@@ -1,0 +1,29 @@
+{
+    "id": "shorebound",
+    "label": "Shorebound",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#88D5DB",
+      "color": "#1A2962"
+     },
+     "mods": {
+      "background": "#FEC888",
+      "color": "#8E2430"
+     },
+     "accent": {
+      "background": "#005689",
+      "color": "#FEC888"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "tiramisu",
+    "label": "Tiramisu",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#F4E3D0",
+      "color": "#794C3B"
+     },
+     "mods": {
+      "background": "#794C3B",
+      "color": "#F4E3D0"
+     },
+     "accent": {
+      "background": "#BE946A",
+      "color": "#F4E3D0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "trader",
+    "label": "Trader",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#A4A49C",
+      "color": "#FDFBF0"
+     },
+     "mods": {
+      "background": "#808376",
+      "color": "#FDFBF0"
+     },
+     "accent": {
+      "background": "#A39FA0",
+      "color": "#FDFBF0"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

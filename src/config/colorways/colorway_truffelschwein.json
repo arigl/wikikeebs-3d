@@ -1,0 +1,29 @@
+{
+    "id": "truffelschwein",
+    "label": "Truffelschwein",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#181E27",
+      "color": "#F8C1B8"
+     },
+     "mods": {
+      "background": "#F8C1B8",
+      "color": "#181E27"
+     },
+     "accent": {
+      "background": "#F4F4F4",
+      "color": "#181E27"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

@@ -1,0 +1,29 @@
+{
+    "id": "watermelon",
+    "label": "Watermelon",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E1DBD1",
+      "color": "#2A5346"
+     },
+     "mods": {
+      "background": "#2A5346",
+      "color": "#E1DBD1"
+     },
+     "accent": {
+      "background": "#C95B61",
+      "color": "#E1DBD1"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

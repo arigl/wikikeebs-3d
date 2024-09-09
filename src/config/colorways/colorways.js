@@ -265,6 +265,53 @@ import colorway_retrocast from "./colorway_retrocast.json";
 import colorway_rudy_r2 from "./colorway_rudy_r2.json";
 import colorway_rouge from "./colorway_rouge.json";
 
+// 9/9
+import colorway_symbiote from "./colorway_symbiote.json";
+import colorway_sunset_surfing from "./colorway_sunset_surfing.json";
+import colorway_storm from "./colorway_storm.json";
+import colorway_stealth from "./colorway_stealth.json";
+import colorway_stargaze from "./colorway_stargaze.json";
+import colorway_star from "./colorway_star.json";
+import colorway_spirit from "./colorway_spirit.json";
+import colorway_sparta from "./colorway_sparta.json";
+import colorway_soyamilk from "./colorway_soyamilk.json";
+import colorway_sloth from "./colorway_sloth.json";
+import colorway_slasher from "./colorway_slasher.json";
+import colorway_sixes from "./colorway_sixes.json";
+import colorway_shorebound from "./colorway_shorebound.json";
+import colorway_shashin from "./colorway_shashin.json";
+import colorway_shanshui from "./colorway_shanshui.json";
+import colorway_shadow from "./colorway_shadow.json";
+import colorway_serenity from "./colorway_serenity.json";
+import colorway_seafarer from "./colorway_seafarer.json";
+import colorway_twilight from "./colorway_twilight.json";
+import colorway_tuzi from "./colorway_tuzi.json";
+import colorway_truffelschwein from "./colorway_truffelschwein.json";
+import colorway_trader from "./colorway_trader.json";
+import colorway_trackday from "./colorway_trackday.json";
+import colorway_tiramisu from "./colorway_tiramisu.json";
+import colorway_thinkcaps from "./colorway_thinkcaps.json";
+import colorway_terror from "./colorway_terror";
+import colorway_terror_below from "./colorway_terror_below.json";
+import colorway_teradrive from "./colorway_teradrive.json";
+import colorway_tenshi from "./colorway_tenshi.json";
+import colorway_tako from "./colorway_tako.json";
+import colorway_taiga from "./colorway_taiga.json";
+import colorway_taegeukgi from "./colorway_taegeukgi.json";
+import colorway_umka from "./colorway_umka.json";
+import colorway_underworld from "./colorway_underworld.json";
+import colorway_universe from "./colorway_universe.json";
+import colorway_vamp from "./colorway_vamp.json";
+import colorway_villanelle from "./colorway_villanelle.json";
+import colorway_wasabi_r2 from "./colorway_wasabi_r2.json";
+import colorway_watermelon from "./colorway_watermelon.json";
+import colorway_yeeti from "./colorway_yeeti.json";
+import colorway_yuru from "./colorway_yuru.json";
+import colorway_yutousu from "./colorway_yutousu.json";
+import colorway_zen_pond from "./colorway_zen_pond.json";
+import colorway_zimo from "./colorway_zimo.json";
+import colorway_zooted from "./colorway_zooted.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -524,6 +571,52 @@ const COLORWAYS = {
   retrocast: colorway_retrocast,
   rudy_r2: colorway_rudy_r2,
   rouge: colorway_rouge,
+  // 9-9
+  symbiote: colorway_symbiote,
+  sunset_surfing: colorway_sunset_surfing,
+  storm: colorway_storm,
+  stealth: colorway_stealth,
+  stargaze: colorway_stargaze,
+  star: colorway_star,
+  spirit: colorway_spirit,
+  sparta: colorway_sparta,
+  soyamilk: colorway_soyamilk,
+  sloth: colorway_sloth,
+  slasher: colorway_slasher,
+  sixes: colorway_sixes,
+  shorebound: colorway_shorebound,
+  shashin: colorway_shashin,
+  shanshui: colorway_shanshui,
+  shadow: colorway_shadow,
+  serenity: colorway_serenity,
+  seafarer: colorway_seafarer,
+  twilight: colorway_twilight,
+  tuzi: colorway_tuzi,
+  truffelschwein: colorway_truffelschwein,
+  trader: colorway_trader,
+  trackday: colorway_trackday,
+  tiramisu: colorway_tiramisu,
+  thinkcaps: colorway_thinkcaps,
+  terror: colorway_terror,
+  terror_below: colorway_terror_below,
+  teradrive: colorway_teradrive,
+  tenshi: colorway_tenshi,
+  tako: colorway_tako,
+  taiga: colorway_taiga,
+  taegeukgi: colorway_taegeukgi,
+  umka: colorway_umka,
+  underworld: colorway_underworld,
+  universe: colorway_universe,
+  vamp: colorway_vamp,
+  villanelle: colorway_villanelle,
+  wasabi_r2: colorway_wasabi_r2,
+  watermelon: colorway_watermelon,
+  yeeti: colorway_yeeti,
+  yuru: colorway_yuru,
+  yutousu: colorway_yutousu,
+  zen_pond: colorway_zen_pond,
+  zimo: colorway_zimo,
+  zooted: colorway_zooted,
 };
 
 export default COLORWAYS;

@@ -1,0 +1,29 @@
+{
+    "id": "yutousu",
+    "label": "Yutousu",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#BCBABA",
+      "color": "#ADA19F"
+     },
+     "mods": {
+      "background": "#ADA19F",
+      "color": "#655569"
+     },
+     "accent": {
+      "background": "#655569",
+      "color": "#BCBABA"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

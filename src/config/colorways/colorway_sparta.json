@@ -1,0 +1,29 @@
+{
+    "id": "sparta",
+    "label": "Sparta",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#E9E0D2",
+      "color": "#AF804F"
+     },
+     "mods": {
+      "background": "#792423",
+      "color": "#AF804F"
+     },
+     "accent": {
+      "background": "#AF804F",
+      "color": "#792423"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }

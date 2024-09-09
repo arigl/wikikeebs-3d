@@ -1,0 +1,29 @@
+{
+    "id": "terror_below",
+    "label": "Terror Below",
+    "manufacturer": "GMK",
+    "swatches": {
+     "base": {
+      "background": "#00816D",
+      "color": "#7AE1BF"
+     },
+     "mods": {
+      "background": "#18332F",
+      "color": "#7AE1BF"
+     },
+     "accent": {
+      "background": "#7AE1BF",
+      "color": "#18332F"
+     }
+    },
+    "override": {
+     "KC_ENT": "accent",
+     "KC_ESC": "accent",
+     "KC_GESC": "accent",
+     "KC_F5": "mods",
+     "KC_F6": "mods",
+     "KC_F7": "mods",
+     "KC_F8": "mods",
+     "KC_SPC":"base"
+    }
+   }
