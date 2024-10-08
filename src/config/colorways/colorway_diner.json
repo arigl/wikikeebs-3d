@@ -73,6 +73,7 @@
         "KC_UP": "accent2",
         "KC_DOWN": "accent2",
         "KC_LEFT": "accent2",
-        "KC_RGHT": "accent2"
+        "KC_RGHT": "accent2",
+        "KC_SPC":"accent2"
     }
    }

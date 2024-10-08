@@ -1,19 +1,19 @@
 {
-    "id": "yutousu",
-    "label": "Yutousu",
+    "id": "botanical2_desert",
+    "label": "Botanical 2 Desert",
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#BCBABA",
-      "color": "#655569"
+      "background": "#D1CEC6",
+      "color": "#455C52"
      },
      "mods": {
-      "background": "#ADA19F",
-      "color": "#655569"
+      "background": "#455C52",
+      "color": "#A5B9B0"
      },
      "accent": {
-      "background": "#655569",
-      "color": "#BCBABA"
+      "background": "#A5B9B0",
+      "color": "#455C52"
      }
     },
     "override": {

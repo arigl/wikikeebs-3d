@@ -4,11 +4,11 @@
     "manufacturer": "GMK",
     "swatches": {
      "base": {
-      "background": "#F7E499",
+      "background": "#CFCEC5",
       "color": "#FFC82C"
      },
      "mods": {
-      "background": "#FFC82C",
+      "background": "#D89812",
       "color": "#F7E499"
      },
      "accent": {

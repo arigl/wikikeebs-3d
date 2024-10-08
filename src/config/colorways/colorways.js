@@ -312,6 +312,10 @@ import colorway_zen_pond from "./colorway_zen_pond.json";
 import colorway_zimo from "./colorway_zimo.json";
 import colorway_zooted from "./colorway_zooted.json";
 
+// 10/8/24 bug fixes
+import colorway_matsu from "./colorway_matsu.json";
+import colorway_botanical2_desert from "./colorway_botanical2_desert.json";
+
 const COLORWAYS = {
   //APPEND
   aurora_polaris: colorway_aurora_polaris,
@@ -617,6 +621,9 @@ const COLORWAYS = {
   zen_pond: colorway_zen_pond,
   zimo: colorway_zimo,
   zooted: colorway_zooted,
+  //10-8
+  matsu: colorway_matsu,
+  botanical2_desert: colorway_botanical2_desert,
 };
 
 export default COLORWAYS;

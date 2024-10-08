@@ -5,11 +5,11 @@
   "swatches": {
     "base": {
       "background": "#545194",
-      "color": "#5C2E3E"
+      "color": "#C2C1C9"
     },
     "mods": {
       "background": "#545194",
-      "color": "#5C6AC8"
+      "color": "#C2C1C9"
     },
     "accent": {
       "background": "#2F2F2F",
@@ -24,6 +24,10 @@
       "color": "#36B091"
     },
     "accent4": {
+      "background": "#545194",
+      "color": "#E52F76"
+    },
+    "accent5": {
       "background": "#545194",
       "color": "#E52F76"
     }

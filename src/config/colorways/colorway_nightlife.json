@@ -12,15 +12,15 @@
       "color": "#5E74BD"
      },
      "accent": {
-      "background": "#5C2695",
+      "background": "#2E3C49",
       "color": "#F178B2"
      },
      "accent2": {
-        "background": "#5C2695",
+        "background": "#2E3C49",
         "color": "#73F27E"
        },
      "accent3": {
-        "background": "#5C2695",
+        "background": "#2E3C49",
         "color": "#91F3F0"
        }
     },
