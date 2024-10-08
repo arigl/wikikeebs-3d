@@ -59,14 +59,16 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 0;
-  margin: 0;
+  // padding: 0;
+  // margin: 0;
+  margin-right: 10px;
   list-style-type: none;
   max-height: 500px;
 }
 
 .list::-webkit-scrollbar {
   width: 8px; /* Adjust scrollbar width */
+  margin-left: 8px;
 }
 
 .list::-webkit-scrollbar-thumb {
