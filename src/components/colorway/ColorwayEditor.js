@@ -33,33 +33,25 @@ export default function ColorwayEditor() {
   const previousSwatchesRef = useRef(null);
 
   useEffect(() => {
-    console.log("useEffect - Initial Setup");
     let colorway = colorwayList.find((x) => x.id === colorwayId);
     if (!colorway) {
       colorway = JSON.parse(JSON.stringify(ColorUtil.getColorway(colorwayId)));
       colorway.label += " modified";
       colorway.id = `cw_${Util.randString()}`;
       dispatch(addCustomColorway(colorway));
-      console.log("Dispatched addCustomColorway:", colorway);
       dispatch(setColorway(colorway.id));
-      console.log("Dispatched setColorway:", colorway.id);
     }
     setLocalColorway(colorway);
-    console.log("Set localColorway:", colorway);
   }, [colorwayId, colorwayList, dispatch]);
 
   useEffect(() => {
-    console.log("useEffect - Toggle Editing");
     dispatch(toggleEditing());
-    console.log("Dispatched toggleEditing");
     return () => {
       dispatch(toggleEditing());
-      console.log("Dispatched toggleEditing (cleanup)");
     };
   }, [dispatch]);
 
   useEffect(() => {
-    console.log("useEffect - Editing Class");
     document.body.classList.add("editing");
     return () => {
       document.body.classList.remove("editing");
@@ -67,8 +59,6 @@ export default function ColorwayEditor() {
   }, []);
 
   useEffect(() => {
-    console.log("colorway state updated:", localColorway);
-
     if (localColorway) {
       const currentSwatches = localColorway.swatches;
       const previousSwatches = previousSwatchesRef.current;
@@ -76,7 +66,6 @@ export default function ColorwayEditor() {
       if (
         JSON.stringify(currentSwatches) !== JSON.stringify(previousSwatches)
       ) {
-        console.log("Swatches changed:", currentSwatches);
         previousSwatchesRef.current = currentSwatches;
       }
     }
@@ -86,7 +75,6 @@ export default function ColorwayEditor() {
     if (localColorway) {
       let updatedColorway = { ...localColorway, label: e.target.value };
       dispatch(updateCustomColorway(updatedColorway));
-      console.log("Dispatched updateCustomColorway:", updatedColorway);
       setLocalColorway(updatedColorway);
     }
   };
@@ -98,7 +86,6 @@ export default function ColorwayEditor() {
         swatches: { ...localColorway.swatches, [swatch]: val },
       };
       dispatch(updateCustomColorway(updatedColorway));
-      console.log("Dispatched updateCustomColorway:", updatedColorway);
       setLocalColorway(updatedColorway);
       let event = new CustomEvent("force_key_material_update");
       document.dispatchEvent(event);
@@ -142,7 +129,6 @@ export default function ColorwayEditor() {
 
       // Dispatch the updated colorway to the store
       dispatch(updateCustomColorway(updatedColorway));
-      console.log("Dispatched updateCustomColorway:", updatedColorway);
 
       // Update the local state
       setLocalColorway(updatedColorway);
@@ -165,10 +151,8 @@ export default function ColorwayEditor() {
         },
       };
       dispatch(updateCustomColorway(updatedColorway));
-      console.log("Dispatched updateCustomColorway:", updatedColorway);
       setLocalColorway(updatedColorway);
       dispatch(setActiveSwatch(new_swatch_id));
-      console.log("Dispatched setActiveSwatch:", new_swatch_id);
     }
   };
 
