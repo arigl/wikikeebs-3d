@@ -128,11 +128,9 @@ export class Key {
 
   // get the color group for this key (base, mods, accent, etc)
   get swatch() {
-    console.log("Colorway:", this.colorway);
     const colorway = this.colorway.updates
       ? this.colorway.updates
       : this.colorway;
-    console.log("Swatches:", colorway ? colorway.swatches : undefined);
 
     if (colorway && colorway.swatches) {
       let group =
@@ -145,7 +143,6 @@ export class Key {
       return colorway.swatches[override || group] || colorway.swatches["base"];
     }
 
-    console.error("Colorway or swatches are undefined");
     return null; // Or a default swatch object if you prefer
   }
 
